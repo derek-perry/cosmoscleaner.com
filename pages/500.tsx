@@ -13,12 +13,16 @@ const error500Page: NextPage = () => {
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold text-red-600">
-          <LinkInternal href={process.env.NEXT_PUBLIC_SITE_URL + '/' || '/'} title="Return to Index Page">Error 500: Internal Server Error</LinkInternal>
-        </h1>
+        <div className="flex w-full flex-row items-center justify-center text-center">
+            <h1 className="text-6xl font-bold text-red-600">Error 500: Internal Server Error</h1>
+        </div>
 
-        <p className="mt-3 text-2xl">
+        <p className="my-4 text-2xl">
           The server encountered an internal error or misconfiguration and was unable to complete your request.
+        </p>
+
+        <p className="my-4 text-2xl">
+          <LinkInternal href={process.env.NEXT_PUBLIC_SITE_URL + '/' || '/'} title="Return to Index Page">Go Home</LinkInternal>
         </p>
       </main>
 
@@ -26,7 +30,7 @@ const error500Page: NextPage = () => {
         <div
           className="flex items-center justify-center gap-2"
         >
-          <LinkExternal href="https://github.com/derek-perry/next-tailwind-starter" title="Next+Tailwind Starter" className="no-underline"><p>Next+Tailwind Starter</p></LinkExternal> - <LinkExternal href="https://dp.design" title="Derek Perry" className="no-underline"><p>Derek Perry</p></LinkExternal>{' '}
+          <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="Cosmos Cleaner Game GitHub" className="no-underline"><p>Cosmos Cleaner</p></LinkExternal> - <LinkExternal href="https://dp.design" title="Derek Perry" className="no-underline"><p>Derek Perry</p></LinkExternal>{' '}
           <Image src={process.env.NEXT_PUBLIC_SITE_URL + '/dp.svg' || './dp.svg'} alt="Derek Perry dp.design Logo" width={50} height={50} />
         </div>
       </footer>
