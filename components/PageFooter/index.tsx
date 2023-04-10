@@ -4,7 +4,7 @@ import LinkExternal from "../Links/LinkExternal"
 
 const PageFooter = (): JSX.Element => {
   return (
-      <footer className="flex w-full flex-col items-center justify-center border-t">
+      <footer className="mt-9 w-full flex flex-col items-center justify-center border-t">
         <div
           className="flex items-center justify-center mt-[40px] mb-[15px]"
         >

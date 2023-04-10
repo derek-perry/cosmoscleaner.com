@@ -5,11 +5,11 @@ import LinkInternal from "../components/Links/LinkInternal"
 
 const error500Page: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="min-h-screen flex flex-col items-center justify-center py-2">
       <PageHead title="Error 500: Internal Server Error" description="Cosmos Cleaner is a 2.5D space vehicle arcade collect-a-thon game." url="500" />
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <div className="flex w-full flex-row items-center justify-center text-center">
+      <main className="w-full flex flex-1 flex-col items-center justify-center px-20 text-center">
+        <div className="pt-9 w-full flex flex-row items-center justify-center text-center">
             <h1 className="text-6xl font-bold text-red-600">Error 500: Internal Server Error</h1>
         </div>
 
