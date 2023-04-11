@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import PageHead from "../components/PageHead"
+import SiteHead from "../components/SiteHead"
 import PageFooter from "../components/PageFooter"
 import LinkInternal from "../components/Links/LinkInternal"
 import LinkExternal from "../components/Links/LinkExternal"
@@ -7,7 +7,7 @@ import LinkExternal from "../components/Links/LinkExternal"
 const copyrightPage: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
-      <PageHead title="Cosmos Cleaner Copyright/Licenses" description="Cosmos Cleaner is a 2.5D space vehicle arcade collect-a-thon game. Some rights reserved." url="copyright" />
+      <SiteHead title="Cosmos Cleaner Copyright/Licenses" description="Cosmos Cleaner is a 2.5D space vehicle arcade collect-a-thon game. Some rights reserved." url="copyright" />
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         <article id="policy">

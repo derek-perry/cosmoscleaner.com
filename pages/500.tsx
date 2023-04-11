@@ -1,12 +1,12 @@
 import type { NextPage } from 'next'
-import PageHead from "../components/PageHead"
+import SiteHead from "../components/SiteHead"
 import PageFooter from "../components/PageFooter"
 import LinkInternal from "../components/Links/LinkInternal"
 
 const error500Page: NextPage = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center py-2">
-      <PageHead title="Error 500: Internal Server Error" description="Cosmos Cleaner is a 2.5D space vehicle arcade collect-a-thon game." url="500" />
+      <SiteHead title="Error 500: Internal Server Error" description="Cosmos Cleaner is a 2.5D space vehicle arcade collect-a-thon game." url="500" />
 
       <main className="w-full flex flex-1 flex-col items-center justify-center px-20 text-center">
         <div className="pt-9 w-full flex flex-row items-center justify-center text-center">

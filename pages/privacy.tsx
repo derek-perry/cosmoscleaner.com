@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import PageHead from "../components/PageHead"
+import SiteHead from "../components/SiteHead"
 import PageFooter from "../components/PageFooter"
 import LinkInternal from "../components/Links/LinkInternal"
 import LinkExternal from "../components/Links/LinkExternal"
@@ -7,7 +7,7 @@ import LinkExternal from "../components/Links/LinkExternal"
 const privacyPage: NextPage = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center py-2">
-      <PageHead title="Cosmos Cleaner Privacy Policy" description="Cosmos Cleaner is a 2.5D space vehicle arcade collect-a-thon game. Cosmos Cleaner respects your privacy and your personal data." url="privacy" />
+      <SiteHead title="Cosmos Cleaner Privacy Policy" description="Cosmos Cleaner is a 2.5D space vehicle arcade collect-a-thon game. Cosmos Cleaner respects your privacy and your personal data." url="privacy" />
 
       <main className="w-full flex flex-1 flex-col items-center justify-center px-20 text-center">
         <article id="policy">

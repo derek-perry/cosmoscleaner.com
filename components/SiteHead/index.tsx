@@ -1,13 +1,14 @@
 import { FC } from 'react'
 import Head from 'next/head'
+import Script from 'next/script'
 
-interface IPageHeadProps {
+interface ISiteHeadProps {
   title: string;
   description: string;
   url: string;
 }
 
-const PageHead: FC<IPageHeadProps> = ({
+const SiteHead: FC<ISiteHeadProps> = ({
   title,
   description,
   url
@@ -49,4 +50,4 @@ const PageHead: FC<IPageHeadProps> = ({
   )
 }
 
-export default PageHead
+export default SiteHead
