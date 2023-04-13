@@ -1,0 +1,14 @@
+{
+    "name": "Cosmos Cleaner",
+    "short_name": "CC",
+    "description": "Cosmos Cleaner is a 2.5D space vehicle arcade collect-a-thon game.",
+    "lang": "en",
+    "categories": ["game", "videogame", "space", "cosmos", "cleaner"],
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "scope": "/",
+    "id": "/?source=pwa",
+    "start_url": "/?source=pwa",
+    "display_override": ["window-control-overlay", "minimal-ui"],
+    "display": "standalone"
+}

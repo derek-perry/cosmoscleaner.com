@@ -16,7 +16,7 @@ const copyrightPage: NextPage = () => {
                 <h1 className="text-6xl font-bold">Copyright & License Info</h1>
             </div>
             <p className="my-4 text-2xl">
-              <LinkInternal href={process.env.NEXT_PUBLIC_SITE_URL + '/' || '/'} title="Return to Index Page">Go Home</LinkInternal>
+              <LinkInternal href="" title="Return to Index Page">Go Home</LinkInternal>
             </p>
           </section>
 
