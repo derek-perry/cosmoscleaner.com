@@ -6,15 +6,13 @@ import LinkExternal from "../components/Links/LinkExternal"
 
 const privacyPage: NextPage = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center py-2">
+    <div className="py-2 min-h-screen flex flex-col items-center justify-center">
       <SiteHead title="Cosmos Cleaner Privacy Policy" description="Cosmos Cleaner is a 2.5D space vehicle arcade collect-a-thon game. Cosmos Cleaner respects your privacy and your personal data." url="privacy" />
 
-      <main className="w-full flex flex-1 flex-col items-center justify-center px-20 text-center">
+      <main className="py-9 px-9 max-w-[1100px] w-full flex flex-1 flex-col items-center justify-center">
         <article id="policy">
           <section id="contentheader" className="py-9">
-            <div className="w-full flex flex-row items-center justify-center text-center">
-                <h1 className="text-6xl font-bold">Privacy Policy</h1>
-            </div>
+            <h1 className="text-6xl font-bold">Privacy Policy</h1>
             <p className="my-4 text-2xl">
               <LinkInternal href="" title="Return to Index Page">Go Home</LinkInternal>
             </p>

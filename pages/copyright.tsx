@@ -6,21 +6,19 @@ import LinkExternal from "../components/Links/LinkExternal"
 
 const copyrightPage: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="py-2 min-h-screen flex flex-col items-center justify-center">
       <SiteHead title="Cosmos Cleaner Copyright/Licenses" description="Cosmos Cleaner is a 2.5D space vehicle arcade collect-a-thon game. Some rights reserved." url="copyright" />
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
+      <main className="py-9 px-9 max-w-[1100px] w-full flex flex-1 flex-col items-center justify-center">
         <article id="policy">
           <section id="contentheader" className="py-9">
-            <div className="flex w-full flex-row items-center justify-center text-center">
-                <h1 className="text-6xl font-bold">Copyright & License Info</h1>
-            </div>
+            <h1 className="text-6xl font-bold">Copyright & License Info</h1>
             <p className="my-4 text-2xl">
               <LinkInternal href="" title="Return to Index Page">Go Home</LinkInternal>
             </p>
           </section>
 
-          <section id="copyrightlicenseoverview" className="py-9 max-w-[800px] text-left">
+          <section id="copyrightlicenseoverview" className="max-w-[800px] text-left">
               <h2 id="copyrights" className="text-4xl font-bold">Copyright Overview</h2>
               <p className="my-4 text-2xl">Cosmos Cleaner is copyright 2023. Some rights are reserved. Keep reading to learn more.</p>
               <p className="my-4 text-2xl">The name "Cosmos Cleaner" is a trademark starting in 2023 under the sole ownership of <LinkExternal href="https://dp.design" title="Go to Derek Perry's Website at dp.design">Derek Perry</LinkExternal>.</p>
