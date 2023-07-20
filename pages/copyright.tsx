@@ -22,7 +22,7 @@ const copyrightPage: NextPage = () => {
               <h2 id="copyrights" className="text-4xl font-bold">Copyright Overview</h2>
               <p className="my-4 text-2xl">Cosmos Cleaner is copyright 2023. Some rights are reserved. Keep reading to learn more.</p>
               <p className="my-4 text-2xl">The name "Cosmos Cleaner" is a trademark starting in 2023 under the sole ownership of <LinkExternal href="https://dp.design" title="Go to Derek Perry's Website at dp.design">Derek Perry</LinkExternal>.</p>
-              <p className="my-4 text-2xl">The Cosmos Cleaner logo, logotype, and icon are trademarks starting in 2023 under the sole ownership of <LinkExternal href="https://dp.design" title="Go to Derek Perry's Website at dp.design">Derek Perry</LinkExternal> and the Cosmos Cleaner brand.</p>
+              <p className="my-4 text-2xl">The Cosmos Cleaner name, logo, logotype, and icon are trademarks starting in 2023 under the sole ownership of <LinkExternal href="https://dp.design" title="Go to Derek Perry's Website at dp.design">Derek Perry</LinkExternal> and the Cosmos Cleaner brand.</p>
               <p className="my-4 text-2xl">The Cosmos Cleaner's <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">game code on GitHub</LinkExternal> is copyprotected starting in 2023 under the sole ownership of <LinkExternal href="https://dp.design" title="Go to Derek Perry's Website at dp.design">Derek Perry</LinkExternal> and the Cosmos Cleaner brand.</p>
 
 
