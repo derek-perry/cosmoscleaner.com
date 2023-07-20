@@ -14,8 +14,10 @@ const LinkInternal: FC<ILinkInternalProps> = ({
   children,
   className
 }): JSX.Element => {
+  const linkBase = process.env.NEXT_PUBLIC_SITE_URL || ""
+
   return (
-    <Link href={process.env.NEXT_PUBLIC_SITE_URL + '/' + href || './' + href} title={title} className={"underline hover:text-green-600 " + className}>
+    <Link href={linkBase + '/' + href || './' + href} title={title} className={"underline hover:text-green-600 " + className}>
         {children}
     </Link>
   )
