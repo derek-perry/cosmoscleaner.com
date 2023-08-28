@@ -16,7 +16,7 @@ const LinkExternal: FC<ILinkExternalProps> = ({
 }): JSX.Element => {
   return (
     <Link href={href} title={title} target="_blank" rel="noopener noreferrer" className={"underline hover:text-lime-500 " + className}>
-        {children}
+      {children}
     </Link>
   )
 }

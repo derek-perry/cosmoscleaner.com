@@ -18,7 +18,7 @@ const LinkInternal: FC<ILinkInternalProps> = ({
 
   return (
     <Link href={linkBase + '/' + href || './' + href} title={title} className={"underline hover:text-lime-500 " + className}>
-        {children}
+      {children}
     </Link>
   )
 }

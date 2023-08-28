@@ -18,10 +18,8 @@ const homePage: NextPage = () => {
         />
         <h1 className="text-3xl"><strong><em>Cosmos Cleaner</em></strong> is a 2.5D space vehicle arcade collect-a-thon game.</h1>
 
-        <p className="my-8 text-2xl">
-          <code className="bg-cyan-900 p-3 font-mono text-lg rounded-md">
-            Coming Soon
-          </code>
+        <p className="my-8 bg-cyan-900 p-3 font-bold text-lg rounded-md">
+          Coming Soon
         </p>
 
         <div className="w-full flex flex-row items-center justify-center text-center">
