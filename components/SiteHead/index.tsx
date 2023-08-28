@@ -40,11 +40,13 @@ const SiteHead: FC<ISiteHeadProps> = ({
       <link rel="canonical" href={process.env.NEXT_PUBLIC_SITE_URL || 'https://cosmoscleaner.com'} />
 
       <link rel="icon" href={process.env.NEXT_PUBLIC_SITE_URL + '/favicon.ico' || 'https://cosmoscleaner.com/favicon.ico'} />
+      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1e3a8a" />
       <link rel="manifest" href={process.env.NEXT_PUBLIC_SITE_URL + '/manifest.webmanifest' || 'https://cosmoscleaner.com/manifest.webmanifest'} />
       <meta name="apple-mobile-web-app-title" content="Cosmos Cleaner" />
       <meta name="application-name" content="Cosmos Cleaner" />
-      <meta name="msapplication-TileColor" content="#000000" />
-      <meta name="theme-color" content="#000000" />
+      <meta name="msapplication-TileColor" content="#2b5797" />
+      <meta name="msapplication-TileImage" content={process.env.NEXT_PUBLIC_SITE_URL + '/mstile-144x144.png' || 'https://cosmoscleaner.com/mstile-144x144.png'} />
+      <meta name="theme-color" content="#1e3a8a" />
     </Head>
   )
 }
