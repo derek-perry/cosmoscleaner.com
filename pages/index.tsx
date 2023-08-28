@@ -12,7 +12,7 @@ const homePage: NextPage = () => {
         <h1 className="text-6xl font-bold">Cosmos Cleaner</h1>
 
         <p className="my-4 text-2xl">
-          Cosmos Cleaner is a 2.5D space vehicle arcade collect-a-thon game.
+          <strong><em>Cosmos Cleaner</em></strong> is a 2.5D space vehicle arcade collect-a-thon game.
         </p>
 
         <p className="mt-4 mb-6 text-2xl">
