@@ -2,21 +2,24 @@ import type { NextPage } from 'next'
 import SiteHead from "../components/SiteHead"
 import PageFooter from "../components/PageFooter"
 import LinkExternal from "../components/Links/LinkExternal"
+import Image from 'next/image'
 
 const homePage: NextPage = () => {
   return (
-    <div className="py-2 min-h-screen flex flex-col items-center justify-center">
+    <div className="bg-blue-900 text-cyan-100 min-h-screen flex flex-col items-center justify-center">
       <SiteHead title="Cosmos Cleaner" description="Cosmos Cleaner is a 2.5D space vehicle arcade collect-a-thon game." url="" />
 
       <main className="py-9 px-9 max-w-[1100px] w-full flex flex-1 flex-col items-center justify-center">
-        <h1 className="text-6xl font-bold">Cosmos Cleaner</h1>
+        <Image
+          src="/CosmosCleaner_Logotype_ColorOnDark-Padded-Horizontal.svg"
+          width={1000}
+          height={500}
+          alt="Cosmos Cleaner"
+        />
+        <h1 className="text-3xl"><strong><em>Cosmos Cleaner</em></strong> is a 2.5D space vehicle arcade collect-a-thon game.</h1>
 
-        <p className="my-4 text-2xl">
-          <strong><em>Cosmos Cleaner</em></strong> is a 2.5D space vehicle arcade collect-a-thon game.
-        </p>
-
-        <p className="mt-4 mb-6 text-2xl">
-          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
+        <p className="my-8 text-2xl">
+          <code className="bg-cyan-900 p-3 font-mono text-lg rounded-md">
             Coming Soon
           </code>
         </p>

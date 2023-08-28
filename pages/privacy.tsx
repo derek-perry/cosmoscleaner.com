@@ -6,19 +6,19 @@ import LinkExternal from "../components/Links/LinkExternal"
 
 const privacyPage: NextPage = () => {
   return (
-    <div className="py-2 min-h-screen flex flex-col items-center justify-center">
+    <div className="min-h-screen flex flex-col items-center justify-center">
       <SiteHead title="Cosmos Cleaner Privacy Policy" description="Cosmos Cleaner is a 2.5D space vehicle arcade collect-a-thon game. Cosmos Cleaner respects your privacy and your personal data." url="privacy" />
 
-      <main className="py-9 px-9 max-w-[1100px] w-full flex flex-1 flex-col items-center justify-center">
+      <main className="py-9 px-9 max-w-[1000px] w-full flex flex-1 flex-col items-center justify-center">
         <article id="policy">
           <section id="contentheader" className="py-9">
-            <h1 className="text-6xl font-bold">Privacy Policy</h1>
+            <h1 className="text-6xl font-bold">Cosmos Cleaner Privacy Policy</h1>
             <p className="my-4 text-2xl">
               <LinkInternal href="" title="Return to Index Page">Go Home</LinkInternal>
             </p>
           </section>
 
-          <section id="privacypolicy" className="max-w-[800px] text-left">
+          <section id="privacypolicy" className="max-w-[1000px] text-left">
               <h2 id="overview" className="text-4xl font-bold">Privacy Policy Overview</h2>
               <p className="my-4 text-2xl">It is Cosmos Cleaner’s policy to respect your privacy regarding any information Cosmos Cleaner may collect while operating the game, Cosmos Cleaner. This Privacy Policy applies to <LinkInternal href="" title="Cosmos Cleaner">Cosmos Cleaner</LinkInternal> (hereinafter, “the game”, “Cosmos Cleaner's game”, or “Cosmos Cleaner”). Cosmos Cleaner respects your privacy and is committed to protecting personally identifiable information you may provide Cosmos Cleaner through the game. Cosmos Cleaner has adopted this privacy policy (“Privacy Policy”) to explain what information may be collected in the game, how Cosmos Cleaner uses this information, and under what circumstances Cosmos Cleaner may disclose the information to third parties. This Privacy Policy applies only to information Cosmos Cleaner collects through the game and does not apply to the collection of information from other sources.</p>
               <p className="my-4 text-2xl">This Privacy Policy sets forth the general rules and policies governing your experience with the game. Depending on your activities when playing the game, you may be required to agree to additional terms and conditions.</p>

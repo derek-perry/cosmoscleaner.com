@@ -6,7 +6,7 @@ const PageFooter = (): JSX.Element => {
   let currentYear: number=new Date().getFullYear();
 
   return (
-      <footer className="mt-9 pt-[40px] pb-[35px] w-full flex flex-row flex-wrap items-center justify-center border-t">
+      <footer className="bg-cyan-900 text-cyan-100 mt-9 pt-[40px] pb-[35px] w-full flex flex-row flex-wrap items-center justify-center">
           <LinkInternal href="" title="Cosmos Cleaner" className="no-underline">
             <p>© {currentYear} Cosmos Cleaner</p>
           </LinkInternal>
