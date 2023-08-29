@@ -16,16 +16,19 @@ export default function Document() {
           "applicationCategory": "Game",
           "playMode": "Single-Player",
           "applicationSubCategory": "Arcade Game",
-          "genre": "[Arcade,Action,3rd Person,3D]",
+          "genre": "arcade|action",
           "keywords": "[cosmos,cleaner,game,space]",
           "operatingSystem": "[Windows 10,Windows 11]",
           "gamePlatform": "[Windows 10,Windows 11]",
           "url": "https://cosmoscleaner.com",
+          "privacyPolicyURL": "https://cosmoscleaner.com/privacy",
           "downloadUrl": "https://cosmoscleaner.com/play",
           "installUrl": "https://cosmoscleaner.com/play",
+          "icon": "https://cosmoscleaner.com/gameIcon.png",
+          "gameBanner": "https://cosmoscleaner.com/gameBanner.png",
+          "thumbnailUrl": "https://cosmoscleaner.com/banner.png",
           "image": "https://cosmoscleaner.com/banner.png",
           "screenshot": "https://cosmoscleaner.com/banner.png",
-          "thumbnailUrl": "https://cosmoscleaner.com/banner.png",
           "offers": {
             "@type": "Offer",
             "name": "Cosmos Cleaner",
@@ -33,19 +36,39 @@ export default function Document() {
             "price": 0,
             "priceCurrency": "USD"
           },
+          "isAccessibleForFree": true,
           "author": {
             "@type": "Person",
             "name": "Derek Perry",
             "url": "https://dp.design",
-            "email": "dp@dp.design"
+            "email": "dp@dp.design",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://dp.design/media/logo.png"
+            }
           },
+          "creditText": "Game and Website by Derek Perry",
           "processorRequirements": "Quad-core Intel or AMD, 2.5 GHz or faster",
           "storageRequirements": "2GB",
           "memoryRequirements": "4GB",
           "copyrightNotice": "© 2023 Cosmos Cleaner  -  Game by Derek Perry",
           "copyrightYear": "2023",
           "datePublished": "2023-04-09",
+          "dateCreated": "2023-04-09",
+          "dateModified": "2023-08-28T20:43",
+          "isFamilyFriendly": true,
           "interactivityType": "active",
+          "accessibilityControl": [
+            "fullKeyboardControl",
+            "fullMouseControl",
+            "fullTouchControl"
+          ],
+          "accessibilityHazard": [
+            "flashing",
+            "motionSimulation",
+            "sound"
+          ],
+          “gameExecutionMode”: “clientside”,
           "inLanguage": "en-US"
         `}</Script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />

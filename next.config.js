@@ -19,6 +19,41 @@ const nextConfig = {
         "permanent": true
       },
       {
+        "source": "/play",
+        "destination": "/",
+        "permanent": false
+      },
+      {
+        "source": "/brand",
+        "destination": "/press",
+        "permanent": true
+      },
+      {
+        "source": "/branding",
+        "destination": "/press",
+        "permanent": true
+      },
+      {
+        "source": "/presskit",
+        "destination": "/press",
+        "permanent": true
+      },
+      {
+        "source": "/press-kit",
+        "destination": "/press",
+        "permanent": true
+      },
+      {
+        "source": "/mediakit",
+        "destination": "/press",
+        "permanent": true
+      },
+      {
+        "source": "/media-kit",
+        "destination": "/press",
+        "permanent": true
+      },
+      {
         "source": "/privacypolicy",
         "destination": "/privacy",
         "permanent": true
@@ -40,6 +75,11 @@ const nextConfig = {
       },
       {
         "source": "/cookiepolicy",
+        "destination": "/privacy",
+        "permanent": true
+      },
+      {
+        "source": "/cookie-policy",
         "destination": "/privacy",
         "permanent": true
       }

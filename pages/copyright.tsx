@@ -51,7 +51,7 @@ const copyrightPage: NextPage = () => {
 
 
               <h2 id="contact-info" className="mt-8 text-4xl font-bold">Contact Information</h2>
-              <p className="my-4 text-2xl">If you have any questions about this Copyright/License Overview, please contact Cosmos Cleaner via email at <LinkExternal href="mailto:contact@cosmoscleaner.com" title="Contact Cosmos Cleaner via Email at Contact@CosmosCleaner.com">Contact@CosmosCleaner.com</LinkExternal></p>
+              <p className="my-4 text-2xl">If you have any questions about this Copyright/License Overview, please contact Cosmos Cleaner via email at <LinkExternal className="break-all" href="mailto:contact@cosmoscleaner.com" title="Contact Cosmos Cleaner via Email at Contact@CosmosCleaner.com">Contact@CosmosCleaner.com</LinkExternal></p>
           </section>
         </article>
       </main>
