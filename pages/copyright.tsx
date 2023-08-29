@@ -47,7 +47,7 @@ const copyrightPage: NextPage = () => {
 
               <h2 id="changes" className="mt-8 text-4xl font-bold">Copyright/License Changes</h2>
               <p className="my-4 text-2xl">Although most changes are likely to be minor, Cosmos Cleaner may change this Copyright/License Overview from time to time, and in Cosmos Cleaner’s sole discretion. Cosmos Cleaner encourages users to frequently check this page for any changes to this Copyright/License Overview. Your continued use of this site after any change in this Copyright/License Overview will constitute your acceptance of such change.</p>
-              <p className="my-4 text-2xl"><i>This Copyright/License Overview was last updated on August 28, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">website files on GitHub</LinkExternal> for version history.</i></p>
+              <p className="my-4 text-2xl"><i>This Copyright/License Overview was last updated on August 29, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">website files on GitHub</LinkExternal> for version history.</i></p>
 
 
               <h2 id="contact-info" className="mt-8 text-4xl font-bold">Contact Information</h2>

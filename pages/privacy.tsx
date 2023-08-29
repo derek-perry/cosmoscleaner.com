@@ -60,7 +60,7 @@ const privacyPage: NextPage = () => {
 
               <h2 id="changes" className="mt-8 text-4xl font-bold">Privacy Policy Changes</h2>
               <p className="my-4 text-2xl">Although most changes are likely to be minor, Cosmos Cleaner may change this Privacy Policy from time to time, and in Cosmos Cleaner’s sole discretion. Cosmos Cleaner encourages users to frequently check this page for any changes to this Privacy Policy. Your continued use of this site after any change in this Privacy Policy will constitute your acceptance of such change.</p>
-              <p className="my-4 text-2xl"><i>This Privacy Policy was last updated on August 28, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">website files on GitHub</LinkExternal> for version history.</i></p>
+              <p className="my-4 text-2xl"><i>This Privacy Policy was last updated on August 29, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">website files on GitHub</LinkExternal> for version history.</i></p>
 
 
               <h2 id="contact-info" className="mt-8 text-4xl font-bold">Contact Information</h2>
