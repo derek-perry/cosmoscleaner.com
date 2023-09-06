@@ -25,6 +25,11 @@ export default function Document() {
           "thumbnailUrl":"https://cosmoscleaner.com/banner.png",
           "image":"https://cosmoscleaner.com/banner.png",
           "screenshot":"https://cosmoscleaner.com/banner.png",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "0",
+            "ratingCount": "0"
+          },
           "offers": {
             "@type":"Offer",
             "name":"Cosmos Cleaner",
