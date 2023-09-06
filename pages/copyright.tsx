@@ -6,15 +6,15 @@ import LinkExternal from "../components/Links/LinkExternal"
 
 const copyrightPage: NextPage = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center">
-      <SiteHead title="Cosmos Cleaner Copyright/Licenses" description="Cosmos Cleaner is a 2.5D space vehicle arcade collect-a-thon game. Some rights reserved." url="copyright" />
+    <div className="text-cyan-900 min-h-screen flex flex-col items-center justify-center">
+      <SiteHead title="Cosmos Cleaner Copyright/Licenses" description="Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos! Some rights reserved." url="copyright" />
 
       <main className="py-9 px-9 max-w-[1000px] w-full flex flex-1 flex-col items-center justify-center">
         <article id="policy">
           <section id="contentheader" className="py-9">
             <h1 className="text-6xl font-bold">Cosmos Cleaner Copyright & License Info</h1>
             <p className="my-4 text-2xl">
-              <LinkInternal href="" title="Return to Index Page">Go Home</LinkInternal>
+              <LinkInternal href="" title="Go to the home/index page of CosmosCleaner.com">Go to Homepage</LinkInternal>
             </p>
           </section>
 
@@ -47,7 +47,7 @@ const copyrightPage: NextPage = () => {
 
               <h2 id="changes" className="mt-8 text-4xl font-bold">Copyright/License Changes</h2>
               <p className="my-4 text-2xl">Although most changes are likely to be minor, Cosmos Cleaner may change this Copyright/License Overview from time to time, and in Cosmos Cleaner’s sole discretion. Cosmos Cleaner encourages users to frequently check this page for any changes to this Copyright/License Overview. Your continued use of this site after any change in this Copyright/License Overview will constitute your acceptance of such change.</p>
-              <p className="my-4 text-2xl"><i>This Copyright/License Overview was last updated on August 29, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">website files on GitHub</LinkExternal> for version history.</i></p>
+              <p className="my-4 text-2xl"><i>This Copyright/License Overview was last updated on September 6, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">website files on GitHub</LinkExternal> for version history.</i></p>
 
 
               <h2 id="contact-info" className="mt-8 text-4xl font-bold">Contact Information</h2>

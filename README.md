@@ -1,21 +1,24 @@
-# Cosmos Cleaner _(cc)_ 
-### A 2.5D space vehicle arcade collect-a-thon game.
-### _(This repository contains the website for Cosmos Cleaner.)_
-_[Website; NEXT.js; Tailwind CSS]_
+# Cosmos Cleaner
+### Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!
+### _(This repository contains the website for [Cosmos Cleaner](https://github.com/derek-perry/CosmosCleaner "Visit the GitHub for Cosmos Cleaner at github.com/derek-perry/CosmosCleaner".)_
+_[Website, Web Design]_
+
+**Made Using:** Next.js, Typescript, Tailwind CSS, Netlify
 
 ---
 
-### Game Links
+### Links
 - **Game Website:** [CosmosCleaner.com](https://CosmosCleaner.com "Visit the game website for Cosmos Cleaner at CosmosCleaner.com")
 - **Game Privacy Policy:** [CosmosCleaner.com/privacy](https://CosmosCleaner.com/privacy "Visit the privacy policy for Cosmos Cleaner at CosmosCleaner.com/privacy")
 - **Game Copyright Information:** [CosmosCleaner.com/copyright](https://CosmosCleaner.com/copyright "View the copyright information for Cosmos Cleaner at CosmosCleaner.com/copyright")
+- **Game By:** [Derek Perry](https://dp.design "Go to Derek Perry, the developer of Cosmos Cleaner, at dp.design")
 - **Game GitHub:** [github.com/derek-perry/CosmosCleaner](https://github.com/derek-perry/CosmosCleaner "Visit the GitHub for Cosmos Cleaner at github.com/derek-perry/CosmosCleaner")
 - **Website GitHub:** [github.com/derek-perry/CosmosCleaner-Website](https://github.com/derek-perry/CosmosCleaner-Website "Visit the GitHub for Cosmos Cleaner's Website at github.com/derek-perry/CosmosCleaner-Website")
 
 ---
 
 ### Website License Information
-**Copyright 2023 Cosmos Cleaner TM**
+**Cosmos Cleaner TM Copyright 2023 [Derek Perry](https://dp.design "Go to Derek Perry, the developer of Cosmos Cleaner, at dp.design")**
 **Some rights reserved.**
 Use of [the code for Cosmos Cleaner's website](https://github.com/derek-perry/CosmosCleaner-Website "Visit the GitHub for Cosmos Cleaner's Website at github.com/derek-perry/CosmosCleaner-Website") is licensed under the [MIT License](https://mit.edu/~amini/LICENSE.md "View the Official MIT License at mit.edu/~amini/LICENSE.md") (see below for more details).
 

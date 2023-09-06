@@ -1,7 +1,7 @@
 {
     "name": "Cosmos Cleaner",
     "short_name": "Cosmos Cleaner",
-    "description": "Cosmos Cleaner is a 2.5D space vehicle arcade collect-a-thon game.",
+    "description": "Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!",
     "icons": [
         {
             "src": "/android-chrome-36x36.png",

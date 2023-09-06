@@ -9,22 +9,39 @@ import Image from 'next/image'
 
 const copyrightPage: NextPage = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center">
+    <div className="text-cyan-900 min-h-screen flex flex-col items-center justify-center">
       <SiteHead title="Cosmos Cleaner Media/Press Kit" description="This press/media kit features Cosmos Cleaner facts, a description, links, brand color information, and images like logos. The materials in this kit are ready for use in your publications regarding Cosmos Cleaner." url="press" />
 
       <main className="py-9 px-9 max-w-[1000px] w-full flex flex-1 flex-col items-center justify-center">
-        <article id="presskit">
+        <article id="kit">
           <section id="contentheader" className="py-9">
             <h1 className="text-6xl font-bold">Cosmos Cleaner Media/Press Kit</h1>
             <p className="my-4 text-2xl">
-              <LinkInternal href="" title="Return to Index Page">Go Home</LinkInternal>
+              <LinkInternal href="" title="Go to the home/index page of CosmosCleaner.com">Go to Homepage</LinkInternal>
             </p>
           </section>
 
-          <section id="presskitcontent" className="max-w-[1000px] text-left">
+          <section id="kitcontent" className="max-w-[1000px] text-left">
               <h2 id="download" className="text-4xl font-bold">Download</h2>
-              <p className="my-4 text-2xl">This press/media kit features Cosmos Cleaner facts, a description, links, brand color information, and images like logos. The materials in this kit are ready for use in your publications regarding Cosmos Cleaner. <em>(See Usage Permission Below)</em></p>
-              <ButtonInternal className="mt-3 text-2xl" href="presskit.zip" title="Download Cosmos Cleaner Media/Press Kit">Download</ButtonInternal>
+              <p className="my-4 text-2xl">This media/press kit features Cosmos Cleaner facts, a description, links, brand color information, and images like logos. The materials in this kit are ready for use in your publications regarding Cosmos Cleaner. <em>(See <LinkInternal href="press#usage" title="Read the Usage Permission for the Cosmos Cleaner Media/Press Kit">Usage Permission</LinkInternal> Below)</em></p>
+              <ButtonInternal className="mt-3 text-2xl" href="kit.zip" title="Download Cosmos Cleaner Media/Press Kit">Download</ButtonInternal>
+
+              <h2 id="facts" className="mt-12 mb-3 text-4xl font-bold">Facts</h2>
+              <p className="my-4 text-2xl"><strong>Name:</strong> Cosmos Cleaner</p>
+              <p className="my-4 text-2xl"><strong>Short Description:</strong> Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!</p>
+              <p className="my-4 text-2xl"><strong>Primary Contact:</strong> Contact@CosmosCleaner.com</p>
+              <p className="my-4 text-2xl"><strong>Developer:</strong> Derek Perry, dp@dp.design, <LinkExternal href="https://dp.design" title="Go to Derek Perry, the developer of Cosmos Cleaner, at dp.design">dp.design</LinkExternal></p>
+              <p className="my-4 text-2xl"><strong>Platform Information:</strong> Windows 10/Windows 11 Direct Download (<LinkInternal href="play" title="Download and Play Cosmos Cleaner on Windows 10 or 11 at CosmosCleaner.com/play">CosmosCleaner.com/play</LinkInternal>), Mac (Planned), Linux (Planned), Android (Planned), iOS (Planned)</p>
+              <p className="my-4 text-2xl"><strong>Price:</strong> Free</p>
+              <p className="my-4 text-2xl"><strong>Made Using:</strong> Unreal Engine 5.2.1, Adobe Photoshop, Adobe Illustrator</p>
+
+              <h2 id="links" className="mt-8 mb-3 text-4xl font-bold">Links</h2>
+              <p className="my-4 text-2xl"><strong>Game Website:</strong> <LinkInternal href="" title="Visit the game website for Cosmos Cleaner at CosmosCleaner.com">CosmosCleaner.com</LinkInternal></p>
+              <p className="my-4 text-2xl"><strong>Game Privacy Policy:</strong> <LinkInternal href="privacy" title="Visit the privacy policy for Cosmos Cleaner at CosmosCleaner.com/privacy">CosmosCleaner.com/privacy</LinkInternal></p>
+              <p className="my-4 text-2xl"><strong>Game Copyright Information:</strong> <LinkInternal href="copyright" title="View the copyright information for Cosmos Cleaner at CosmosCleaner.com/copyright">CosmosCleaner.com/copyright</LinkInternal></p>
+              <p className="my-4 text-2xl"><strong>Game By:</strong> <LinkExternal href="https://dp.design" title="Go to Derek Perry, the creator of Cosmos Cleaner, at dp.design">Derek Perry - dp.design</LinkExternal></p>
+              <p className="my-4 text-2xl"><strong>Game GitHub:</strong> <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="Visit the GitHub for Cosmos Cleaner at github.com/derek-perry/CosmosCleaner">github.com/derek-perry/CosmosCleaner</LinkExternal></p>
+              <p className="my-4 text-2xl"><strong>Website GitHub:</strong> <LinkExternal href="https://github.com/derek-perry/CosmosCleaner-Website" title="Visit the GitHub for Cosmos Cleaner's Website at github.com/derek-perry/CosmosCleaner-Website">github.com/derek-perry/CosmosCleaner-Website</LinkExternal></p>
 
               <h2 id="logos" className="mt-8 mb-3 text-4xl font-bold">Logos</h2>
               <h3 id="logos-vertical" className="mt-8 mb-3 text-3xl font-bold">Vertical</h3>
@@ -63,7 +80,7 @@ const copyrightPage: NextPage = () => {
                     />
                   </div>
                 </div>
-                <h3 id="logos-horizontal" className="mt-8 mb-3 text-3xl font-bold">Horizontal</h3>
+                <h3 id="logos-horizontal" className="mt-2 mb-3 text-3xl font-bold">Horizontal</h3>
                 <div className="flex flex-col gap-3.5">
                   <div className="flex flex-wrap gap-3.5">
                     <Image
@@ -125,9 +142,6 @@ const copyrightPage: NextPage = () => {
                     <p>
                       <strong>TailwindCSS:</strong> Lime-500
                     </p>
-                    <p>
-                      <strong>Used in:</strong> "Cosmos" Text in Color Logos, Website Footer Link Text (On Active, On Focus)
-                    </p>
                   </Card>
                   <Card className="text-white bg-sky-500 max-w-[300px]">
                     <p className="text-2xl">
@@ -150,9 +164,6 @@ const copyrightPage: NextPage = () => {
                     </p>
                     <p>
                       <strong>TailwindCSS:</strong> Sky-500
-                    </p>
-                    <p>
-                      <strong>Used in:</strong> "Cleaner" Text in Color Logos, Website Footer Link Text (On Hover), Website Button Background (On Active, On Focus), Website Link Text (On Active, On Focus)
                     </p>
                   </Card>
                 </div>
@@ -179,9 +190,6 @@ const copyrightPage: NextPage = () => {
                     <p>
                       <strong>TailwindCSS:</strong> Blue-900
                     </p>
-                    <p>
-                      <strong>Used in:</strong> Simple Banner Background, Website Homepage Background, Website Button Background, Website Link Text
-                    </p>
                   </Card>
                   <Card className="text-cyan-900 bg-cyan-100 align-top max-w-[300px]">
                     <p className="text-2xl">
@@ -204,9 +212,6 @@ const copyrightPage: NextPage = () => {
                     </p>
                     <p>
                       <strong>TailwindCSS:</strong> Cyan-100
-                    </p>
-                    <p>
-                      <strong>Used in:</strong> Stars in Color on Dark Logos, Website Footer Text
                     </p>
                   </Card>
                   <Card className="text-white bg-cyan-900 max-w-[300px]">
@@ -231,9 +236,6 @@ const copyrightPage: NextPage = () => {
                     <p>
                       <strong>TailwindCSS:</strong> Cyan-900
                     </p>
-                    <p>
-                      <strong>Used in:</strong> Stars in Color on Light Logos, Website Footer Background, Website Button Background (On Hover), Website Link Text (On Hover)
-                    </p>
                   </Card>
                 </div>
               </div>
@@ -249,7 +251,7 @@ const copyrightPage: NextPage = () => {
 
               <h2 id="changes" className="mt-8 text-4xl font-bold">Media/Press Kit Changes</h2>
               <p className="my-4 text-2xl">Although most changes are likely to be minor, Cosmos Cleaner may change this media/press kit from time to time, and in Cosmos Cleaner’s sole discretion. Cosmos Cleaner encourages users to frequently check this page for any changes to this kit.</p>
-              <p className="my-4 text-2xl"><i>This media/press kit was last updated on August 29, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">website files on GitHub</LinkExternal> for version history.</i></p>
+              <p className="my-4 text-2xl"><i>This media/press kit was last updated on September 6, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">website files on GitHub</LinkExternal> for version history.</i></p>
 
 
               <h2 id="contact-info" className="mt-8 text-4xl font-bold">Contact Information</h2>

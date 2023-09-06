@@ -6,34 +6,29 @@ import Image from 'next/image'
 
 const homePage: NextPage = () => {
   return (
-    <div className="bg-blue-900 text-cyan-100 min-h-screen flex flex-col items-center justify-center">
-      <SiteHead title="Cosmos Cleaner" description="Cosmos Cleaner is a 2.5D space vehicle arcade collect-a-thon game." url="" />
+    <div className="text-cyan-900 min-h-screen flex flex-col items-center justify-center">
+      <SiteHead title="Cosmos Cleaner" description="Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!" url="" />
 
-      <main className="py-20 px-9 max-w-[1100px] w-full flex flex-1 flex-col text-center items-center justify-center">
+      <main className="py-20 px-9 max-w-[1250px] w-full flex flex-1 flex-col text-center items-center justify-center">
         <Image
-          src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_ColorOnDark-Padded-Horizontal.svg' || './CosmosCleaner_Logotype_ColorOnDark-Padded-Horizontal.svg'}
+          src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_ColorOnLight-Padded-Horizontal.svg' || './CosmosCleaner_Logotype_ColorOnLight-Padded-Horizontal.svg'}
           width={1000}
           height={500}
           alt="Cosmos Cleaner"
           className="max-md:hidden"
         />
         <Image
-          src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_ColorOnDark-Padded.svg' || './CosmosCleaner_Logotype_ColorOnDark-Padded.svg'}
+          src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_ColorOnLight-Padded.svg' || './CosmosCleaner_Logotype_ColorOnLight-Padded.svg'}
           width={500}
           height={500}
           alt="Cosmos Cleaner"
           className="md:hidden"
         />
-        <h1 className="mt-8 text-3xl"><strong><em>Cosmos Cleaner</em></strong> is a 2.5D space vehicle arcade collect-a-thon game.</h1>
+        <h1 className="mt-8 text-3xl max-sm:text-2xl">Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!</h1>
 
-        <p className="my-20 bg-cyan-900 p-3 font-bold text-lg rounded-md">
+        <p className="mt-20 mb-10 text-white bg-lime-500 py-3 px-5 font-bold text-lg rounded-md">
           Coming Soon
         </p>
-
-        <div className="w-full flex flex-col gap-y-4 items-center justify-center text-center text-2xl">
-          <p className="pr-2">View <LinkExternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="https://github.com/derek-perry/CosmosCleaner" title="Cosmos Cleaner Game GitHub">Game GitHub</LinkExternal></p>
-          <p className="pr-2">View <LinkExternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="https://github.com/derek-perry/CosmosCleaner-Website" title="Cosmos Cleaner Website GitHub">Website GitHub</LinkExternal></p>
-        </div>
       </main>
 
       <PageFooter />

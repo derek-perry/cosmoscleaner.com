@@ -15,7 +15,7 @@ const LinkExternal: FC<ILinkExternalProps> = ({
   className
 }): JSX.Element => {
   return (
-    <Link href={href} title={title} target="_blank" rel="noopener noreferrer" className={"underline text-blue-900 focus:text-sky-500 hover:text-cyan-900 hover:no-underline " + className + " transition-all motion-reduce:transition-none motion-reduce:hover:transform-none"}>
+    <Link href={href} title={title} target="_blank" rel="noopener noreferrer" className={"underline text-blue-900 focus:text-cyan-900 hover:text-sky-500 hover:no-underline " + className + " transition-all motion-reduce:transition-none motion-reduce:hover:transform-none"}>
       {children}
     </Link>
   )
