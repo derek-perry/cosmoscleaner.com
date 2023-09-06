@@ -6,7 +6,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <Script type="application/ld+json" strategy="beforeInteractive">{`
-          "@context":"https:\/\/schema.org\/",
+          "@context":"http:\/\/schema.org\/",
           "@type":"VideoGame",
           "@id":"VideoGame",
           "name":"Cosmos Cleaner",
