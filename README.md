@@ -19,16 +19,18 @@ _[Website, Web Design]_
 
 ---
 
-### Website License Information
-**Cosmos Cleaner Copyright 2023 [Derek Perry](https://dp.design "Go to Derek Perry, the developer of Cosmos Cleaner, at dp.design")**
+### Copyright/License Information
+**[Cosmos Cleaner](https://CosmosCleaner.com "Visit the game website for Cosmos Cleaner at CosmosCleaner.com") Copyright 2023 [Derek Perry](https://dp.design "Go to Derek Perry, the developer of Cosmos Cleaner, at dp.design")**
 
 **Some rights reserved.**
 
-Use of [the code for Cosmos Cleaner's website](https://github.com/derek-perry/CosmosCleaner-Website "Visit the GitHub for Cosmos Cleaner's Website at github.com/derek-perry/CosmosCleaner-Website") is licensed under the [MIT License](https://mit.edu/~amini/LICENSE.md "View the Official MIT License at mit.edu/~amini/LICENSE.md") (see below for more details).
+Use of [the code for Cosmos Cleaner's website](https://github.com/derek-perry/CosmosCleaner-Website "Visit the GitHub for Cosmos Cleaner's Website at github.com/derek-perry/CosmosCleaner-Website") is licensed under the [MIT License](https://mit.edu/~amini/LICENSE.md "View the Official MIT License at mit.edu/~amini/LICENSE.md"). (See below for more details)
 
-However, use  of [Cosmos Cleaner’s code](https://github.com/derek-perry/CosmosCleaner "View Cosmos Cleaner by Derek Perry on GitHub") is strictly forbidden. (see the games's [README.md](https://github.com/derek-perry/CosmosCleaner#readme "Visit the README.md file in the GitHub repo for Cosmos Cleaner at github.com/derek-perry/CosmosCleaner#readme") for more details).
+However, use  of [Cosmos Cleaner’s code](https://github.com/derek-perry/CosmosCleaner "View Cosmos Cleaner by Derek Perry on GitHub") is strictly forbidden. (See the game's [README.md](https://github.com/derek-perry/CosmosCleaner#readme "Visit the README.md file in the GitHub repo for Cosmos Cleaner at github.com/derek-perry/CosmosCleaner#readme") for more details)
 
-**Fonts Used**
+
+**Fonts Used:**
+
 - [Bai Jamjuree](https://github.com/cadsondemak/Bai-Jamjuree "View Bai Jamjuree on GitHub")
 	- By [Cadson Demak](https://github.com/cadsondemak "Go to Cadson Demak, the Creator of Bai Jamjuree, on GitHub") ([SIL Open Font License 1.1](https://scripts.sil.org/ofl" "View the Official SIL Open Font License 1.1 at scripts.sil.org/ofl")) Copyright 2008
 	- Google Fonts Link: [fonts.google.com/specimen/Bai+Jamjuree](https://fonts.google.com/specimen/Bai+Jamjuree "View Bai Jamjuree on Google Fonts")
@@ -47,7 +49,9 @@ However, use  of [Cosmos Cleaner’s code](https://github.com/derek-perry/Cosmos
 	- Used in:
 		- Logo Text "Cleaner"
 
-**Website Sources Used**
+
+**Website Sources Used:**
+
 [Next+Tailwind Starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter") and the source [Next.js + Tailwind CSS Example](https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss "Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss") are licensed under the [MIT License](https://mit.edu/~amini/LICENSE.md "View the Official MIT License at mit.edu/~amini/LICENSE.md")
 
 _(View the accompanying LICENSE file for more information on the "[MIT License](https://mit.edu/~amini/LICENSE.md "View the Official MIT License at mit.edu/~amini/LICENSE.md")" license.)_
