@@ -1,5 +1,6 @@
 # Cosmos Cleaner
 ### Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!
+
 _(This repository contains the website for the game Cosmos Cleaner.)_
 
 _[Website, Web Design]_
@@ -19,8 +20,12 @@ _[Website, Web Design]_
 ---
 
 ### Website License Information
-**Cosmos Cleaner TM Copyright 2023 [Derek Perry](https://dp.design "Go to Derek Perry, the developer of Cosmos Cleaner, at dp.design")**
+**Cosmos Cleaner Copyright 2023 [Derek Perry](https://dp.design "Go to Derek Perry, the developer of Cosmos Cleaner, at dp.design")**
+
 **Some rights reserved.**
+
+Use  of [Cosmos Cleaner’s code](https://github.com/derek-perry/CosmosCleaner "View Cosmos Cleaner by Derek Perry on GitHub") is strictly forbidden. (see the games's [README.md](https://github.com/derek-perry/CosmosCleaner#readme "Visit the README.md file in the GitHub repo for Cosmos Cleaner at github.com/derek-perry/CosmosCleaner#readme") for more details).
+
 Use of [the code for Cosmos Cleaner's website](https://github.com/derek-perry/CosmosCleaner-Website "Visit the GitHub for Cosmos Cleaner's Website at github.com/derek-perry/CosmosCleaner-Website") is licensed under the [MIT License](https://mit.edu/~amini/LICENSE.md "View the Official MIT License at mit.edu/~amini/LICENSE.md") (see below for more details).
 
 **Fonts**
