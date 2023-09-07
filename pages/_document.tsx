@@ -6,7 +6,7 @@ export default function Document() {
     return {
       __html: `{
         "@context": "https://schema.org/",
-        "@type": ["VideoGame", "SoftwareApplication"],
+        "@type": ["SoftwareApplication"],
         "name": "Cosmos Cleaner",
         "description": "Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!",
         "abstract": "Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!",
@@ -31,7 +31,8 @@ export default function Document() {
         },
         "offers": {
           "@type": "Offer",
-          "price": 0
+          "price": 0,
+          "priceCurrency": "USD"
         },
         "isAccessibleForFree": true,
         "author": {
@@ -64,7 +65,7 @@ export default function Document() {
         "copyrightYear": "2023",
         "datePublished": "2023-04-09",
         "dateCreated": "2023-04-09",
-        "dateModified": "2023-09-07T03:00",
+        "dateModified": "2023-09-07T03:07",
         "isFamilyFriendly": true,
         "interactivityType": "active",
         "accessibilityControl": [
