@@ -4,7 +4,7 @@ import Script from 'next/script'
 export default function Document() {
   const addJsonLd = () => {
     return {
-      __html: `
+      __html: `{
         "@context": "https://schema.org/",
         "@type": ["VideoGame", "SoftwareApplication"],
         "name": "Cosmos Cleaner",
@@ -78,7 +78,7 @@ export default function Document() {
           "sound"
         ],
         "inLanguage": "en-US"
-      `
+      }`
     }
   }
   return (
