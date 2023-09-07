@@ -26,8 +26,8 @@ export default function Document() {
         "screenshot": "https://cosmoscleaner.com/banner.png",
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "0",
-          "ratingCount": "0"
+          "ratingValue": "5",
+          "ratingCount": "1"
         },
         "offers": {
           "@type": "Offer",
