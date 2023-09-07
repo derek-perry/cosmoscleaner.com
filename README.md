@@ -1,6 +1,6 @@
 # Cosmos Cleaner
 ### Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!
-_(This repository contains the website for the game [Cosmos Cleaner](https://github.com/derek-perry/CosmosCleaner "Visit the GitHub for Cosmos Cleaner at github.com/derek-perry/CosmosCleaner".)_
+_(This repository contains the website for the game Cosmos Cleaner.)_
 _[Website, Web Design]_
 
 **Made Using:** Next.js, Typescript, Tailwind CSS, Netlify
