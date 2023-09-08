@@ -18,7 +18,7 @@ const ButtonInternal: FC<IButtonInternalProps> = ({
 
   return (
     <Link href={linkBase + '/' + href || './' + href} title={title} className={"text-center text-white group " + className}>
-      <div className="rounded bg-blue-900 group-focus:bg-cyan-900 group-hover:bg-sky-500 py-8 px-10 transition-all motion-reduce:transition-none motion-reduce:hover:transform-none">{children}</div>
+      <div className="max-sm:py-6 max-sm:px-8 sm:py-8 sm:px-14 rounded bg-blue-900 group-focus:bg-cyan-900 group-hover:bg-sky-500 transition-all motion-reduce:transition-none motion-reduce:hover:transform-none">{children}</div>
     </Link>
   )
 }

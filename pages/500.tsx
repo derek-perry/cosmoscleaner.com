@@ -9,9 +9,9 @@ const error500Page: NextPage = () => {
       <SiteHead title="Error 500: Internal Server Error - Cosmos Cleaner" description="Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!" url="500" />
 
       <main className="py-9 px-9 max-w-[1000px] w-full flex flex-1 flex-col text-center items-center justify-center">
-        <h1 className="text-6xl font-bold text-red-600">Error 500: Internal Server Error</h1>
+        <h1 className="text-red-600">Error 500: Internal Server Error</h1>
 
-        <p className="my-4 text-2xl">
+        <p>
           The server encountered an internal error or misconfiguration and was unable to complete your request.
         </p>
 

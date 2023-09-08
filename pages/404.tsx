@@ -9,9 +9,9 @@ const error404Page: NextPage = () => {
       <SiteHead title="Error 404: Content Not Found - Cosmos Cleaner" description="Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!" url="404" />
 
       <main className="py-9 px-9 max-w-[1000px] w-full flex flex-1 flex-col text-center items-center justify-center">
-        <h1 className="text-6xl font-bold text-red-600">Error 404: Content Not Found</h1>
+        <h1 className="text-red-600">Error 404: Content Not Found</h1>
 
-        <p className="my-4 text-2xl">
+        <p>
           The page/content you are looking for has moved, is no longer available, has been archived, or was not valid.
         </p>
 

@@ -10,118 +10,99 @@ import Image from 'next/image'
 const copyrightPage: NextPage = () => {
   return (
     <div className="text-cyan-900 min-h-screen flex flex-col items-center justify-center">
-      <SiteHead title="Cosmos Cleaner Media/Press Kit" description="This press/media kit features Cosmos Cleaner facts, a description, links, brand color information, and images like logos. The materials in this kit are ready for use in your publications regarding Cosmos Cleaner." url="press" />
+      <SiteHead title="Cosmos Cleaner Media Kit" description="This media kit features Cosmos Cleaner facts, a description, links, brand color information, and images like logos ready for use in your publications regarding Cosmos Cleaner." url="press" />
 
       <main className="py-9 px-9 max-w-[1000px] w-full flex flex-1 flex-col items-center justify-center">
         <article id="kit">
-          <section id="contentheader" className="py-9">
-            <h1 className="text-6xl font-bold">Cosmos Cleaner Media/Press Kit</h1>
-            <p className="my-4 text-2xl">
-              <LinkInternal href="" title="Go to the home/index page of CosmosCleaner.com">Go to Homepage</LinkInternal>
-            </p>
+          <section id="contentheader">
+            <h1>Cosmos Cleaner Media Kit</h1>
+            <LinkInternal href="" title="Go to the home/index page of CosmosCleaner.com"><p>Go to Homepage</p></LinkInternal>
           </section>
 
-          <section id="kitcontent" className="max-w-[1000px] text-left">
-              <h2 id="download" className="text-4xl font-bold">Download</h2>
-              <p className="my-4 text-2xl">This media/press kit features Cosmos Cleaner facts, a description, links, brand color information, and images like logos. The materials in this kit are ready for use in your publications regarding Cosmos Cleaner. <em>(See <LinkInternal href="press#usage" title="Read the Usage Permission for the Cosmos Cleaner Media/Press Kit">Usage Permission</LinkInternal> Below)</em></p>
-              <ButtonInternal className="mt-3 text-2xl" href="kit.zip" title="Download Cosmos Cleaner Media/Press Kit">Download</ButtonInternal>
+          <section id="kitcontent" className="text-left">
+              <h2 id="download">Download</h2>
+              <p className="mb-3">This kit features Cosmos Cleaner facts, a description, links, brand color information, and images like logos. The materials in this kit are ready for use in your publications regarding Cosmos Cleaner. <em>(See <LinkInternal href="press#usage" title="Read the Usage Permission for the Cosmos Cleaner Media Kit">Usage Permission</LinkInternal> Below)</em></p>
+              <ButtonInternal className="text-2xl" href="kit.zip" title="Download Cosmos Cleaner Media Kit">Download</ButtonInternal>
 
-              <h2 id="facts" className="mt-12 mb-3 text-4xl font-bold">Facts</h2>
-              <p className="my-4 text-2xl"><strong>Name:</strong> Cosmos Cleaner</p>
-              <p className="my-4 text-2xl"><strong>Short Description:</strong> Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!</p>
-              <p className="my-4 text-2xl"><strong>Primary Contact:</strong> Contact@CosmosCleaner.com</p>
-              <p className="my-4 text-2xl"><strong>Developer:</strong> Derek Perry, dp@dp.design, <LinkExternal href="https://dp.design" title="Go to Derek Perry, the developer of Cosmos Cleaner, at dp.design">dp.design</LinkExternal></p>
-              <p className="my-4 text-2xl"><strong>Platform Information:</strong> Windows 10/Windows 11 Direct Download (<LinkInternal href="play" title="Download and Play Cosmos Cleaner on Windows 10 or 11 at CosmosCleaner.com/play">CosmosCleaner.com/play</LinkInternal>), Mac (Planned), Linux (Planned), Android (Planned), iOS (Planned)</p>
-              <p className="my-4 text-2xl"><strong>Price:</strong> Free</p>
-              <p className="my-4 text-2xl"><strong>Made Using:</strong> Unreal Engine 5.2.1, Adobe Photoshop, Adobe Illustrator</p>
-
-              <h2 id="links" className="mt-8 mb-3 text-4xl font-bold">Links</h2>
-              <p className="my-4 text-2xl"><strong>Game Website:</strong> <LinkInternal href="" title="Visit the game website for Cosmos Cleaner at CosmosCleaner.com">CosmosCleaner.com</LinkInternal></p>
-              <p className="my-4 text-2xl"><strong>Game Privacy Policy:</strong> <LinkInternal href="privacy" title="Visit the privacy policy for Cosmos Cleaner at CosmosCleaner.com/privacy">CosmosCleaner.com/privacy</LinkInternal></p>
-              <p className="my-4 text-2xl"><strong>Game Copyright Information:</strong> <LinkInternal href="copyright" title="View the copyright information for Cosmos Cleaner at CosmosCleaner.com/copyright">CosmosCleaner.com/copyright</LinkInternal></p>
-              <p className="my-4 text-2xl"><strong>Game By:</strong> <LinkExternal href="https://dp.design" title="Go to Derek Perry, the creator of Cosmos Cleaner, at dp.design">Derek Perry - dp.design</LinkExternal></p>
-              <p className="my-4 text-2xl"><strong>Game GitHub:</strong> <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="Visit the GitHub for Cosmos Cleaner at github.com/derek-perry/CosmosCleaner">github.com/derek-perry/CosmosCleaner</LinkExternal></p>
-              <p className="my-4 text-2xl"><strong>Website GitHub:</strong> <LinkExternal href="https://github.com/derek-perry/CosmosCleaner-Website" title="Visit the GitHub for Cosmos Cleaner's Website at github.com/derek-perry/CosmosCleaner-Website">github.com/derek-perry/CosmosCleaner-Website</LinkExternal></p>
-
-              <h2 id="logos" className="mt-8 mb-3 text-4xl font-bold">Logos</h2>
-              <h3 id="logos-vertical" className="mt-8 mb-3 text-3xl font-bold">Vertical</h3>
+              <h2 id="logos">Logos</h2>
+              <h3 id="logos-vertical">Vertical</h3>
               <div className="flex flex-col gap-8">
                 <div className="flex flex-col gap-4">
                   <div className="flex flex-wrap gap-4">
                     <Image
                       src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_ColorOnLight-Padded.svg' || './CosmosCleaner_Logotype_ColorOnLight-Padded.svg'}
-                      width={1000}
-                      height={500}
+                      width={250}
+                      height={250}
                       alt="Cosmos Cleaner Logotype (Color on Light Backgrounds, Padded, Vertical Layout)"
-                      className="max-w-[450px] p-2"
+                      className="flex max-sm:max-w-[250px] p-2"
                     />
                     <Image
                       src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_ColorOnDark-Padded.svg' || './CosmosCleaner_Logotype_ColorOnDark-Padded.svg'}
-                      width={500}
-                      height={500}
+                      width={250}
+                      height={250}
                       alt="Cosmos Cleaner Logotype (Color on Dark Backgrounds, Padded, Vertical Layout)"
-                      className="max-w-[450px] p-2 bg-cyan-900 rounded"
+                      className="flex max-sm:max-w-[250px] p-2 bg-cyan-900 rounded"
                     />
                   </div>
                   <div className="flex flex-wrap gap-3.5">
                     <Image
                       src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_Black-Padded.svg' || './CosmosCleaner_Logotype_Black-Padded.svg'}
-                      width={1000}
-                      height={500}
+                      width={250}
+                      height={250}
                       alt="Cosmos Cleaner Logotype (Black, Padded, Vertical Layout)"
-                      className="max-w-[450px] p-2"
+                      className="flex max-sm:max-w-[250px] p-2"
                     />
                     <Image
                       src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_White-Padded.svg' || './CosmosCleaner_Logotype_White-Padded.svg'}
-                      width={500}
-                      height={500}
+                      width={250}
+                      height={250}
                       alt="Cosmos Cleaner Logotype (White, Padded, Vertical Layout)"
-                      className="max-w-[450px] p-2 bg-cyan-900 rounded"
+                      className="flex max-sm:max-w-[250px] p-2 bg-cyan-900 rounded"
                     />
                   </div>
                 </div>
-                <h3 id="logos-horizontal" className="mt-2 mb-3 text-3xl font-bold">Horizontal</h3>
+                <h3 id="logos-horizontal">Horizontal</h3>
                 <div className="flex flex-col gap-3.5">
                   <div className="flex flex-wrap gap-3.5">
                     <Image
                       src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_ColorOnLight-Padded-Horizontal.svg' || './CosmosCleaner_Logotype_ColorOnDark-Padded-Horizontal.svg'}
-                      width={1000}
-                      height={500}
+                      width={457}
+                      height={65}
                       alt="Cosmos Cleaner Logotype (Color on Light Backgrounds, Padded, Horizontal Layout)"
-                      className="max-w-[450px] p-2"
+                      className="flex max-sm:max-w-[250px] p-2"
                     />
                     <Image
                       src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_ColorOnDark-Padded-Horizontal.svg' || './CosmosCleaner_Logotype_ColorOnDark-Padded-Horizontal.svg'}
-                      width={500}
-                      height={500}
+                      width={457}
+                      height={65}
                       alt="Cosmos Cleaner Logotype (Color on Dark Backgrounds, Padded, Horizontal Layout)"
-                      className="max-w-[450px] p-2 bg-cyan-900 rounded"
+                      className="flex max-sm:max-w-[250px] p-2 bg-cyan-900 rounded"
                     />
                   </div>
                   <div className="flex flex-wrap gap-3.5">
                     <Image
                       src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_Black-Padded-Horizontal.svg' || './CosmosCleaner_Logotype_ColorOnDark-Padded-Horizontal.svg'}
-                      width={1000}
-                      height={500}
+                      width={457}
+                      height={65}
                       alt="Cosmos Cleaner Logotype (Black, Padded, Horizontal Layout)"
-                      className="max-w-[450px] p-2"
+                      className="flex max-sm:max-w-[250px] p-2"
                     />
                     <Image
                       src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_White-Padded-Horizontal.svg' || './CosmosCleaner_Logotype_ColorOnDark-Padded-Horizontal.svg'}
-                      width={500}
-                      height={500}
                       alt="Cosmos Cleaner Logotype (White, Padded, Horizontal Layout)"
-                      className="max-w-[450px] p-2 bg-cyan-900 rounded"
+                      width={457}
+                      height={65}
+                      className="flex max-sm:max-w-[250px] p-2 bg-cyan-900 rounded"
                     />
                   </div>
                 </div>
               </div>
 
-              <h2 id="colors" className="mt-8 mb-3 text-4xl font-bold">Colors</h2>
-              <div className="flex flex-col gap-3.5">
+              <h2 id="colors">Colors</h2>
+              <div className="mt-3 flex flex-col gap-3.5">
                 <div className="flex flex-wrap gap-3.5">
-                  <Card className="text-white bg-lime-500 max-w-[300px]">
-                    <p className="text-2xl">
+                  <Card className="text-white bg-lime-500 w-full">
+                    <p className="text-3xl mb-2">
                       <strong>Green Accent</strong>
                     </p>
                     <p>
@@ -143,8 +124,8 @@ const copyrightPage: NextPage = () => {
                       <strong>TailwindCSS:</strong> Lime-500
                     </p>
                   </Card>
-                  <Card className="text-white bg-sky-500 max-w-[300px]">
-                    <p className="text-2xl">
+                  <Card className="text-white bg-sky-500 w-full">
+                    <p className="text-3xl mb-2">
                       <strong>Blue Accent</strong>
                     </p>
                     <p>
@@ -168,8 +149,8 @@ const copyrightPage: NextPage = () => {
                   </Card>
                 </div>
                 <div className="flex flex-wrap gap-3.5">
-                  <Card className="text-white bg-blue-900 max-w-[300px]">
-                    <p className="text-2xl">
+                  <Card className="text-white bg-blue-900 w-full">
+                    <p className="text-3xl mb-2">
                       <strong>Main Blue Background</strong>
                     </p>
                     <p>
@@ -191,8 +172,8 @@ const copyrightPage: NextPage = () => {
                       <strong>TailwindCSS:</strong> Blue-900
                     </p>
                   </Card>
-                  <Card className="text-cyan-900 bg-cyan-100 align-top max-w-[300px]">
-                    <p className="text-2xl">
+                  <Card className="text-cyan-900 bg-cyan-100 w-full">
+                    <p className="text-3xl mb-2">
                       <strong>Light Blue Background</strong>
                     </p>
                     <p>
@@ -214,8 +195,8 @@ const copyrightPage: NextPage = () => {
                       <strong>TailwindCSS:</strong> Cyan-100
                     </p>
                   </Card>
-                  <Card className="text-white bg-cyan-900 max-w-[300px]">
-                    <p className="text-2xl">
+                  <Card className="text-white bg-cyan-900 w-full">
+                    <p className="text-3xl mb-2">
                       <strong>Dark Blue Background</strong>
                     </p>
                     <p>
@@ -240,22 +221,22 @@ const copyrightPage: NextPage = () => {
                 </div>
               </div>
 
-              <h2 id="fonts" className="mt-8 mb-4 text-4xl font-bold">Fonts</h2>
-              <p className="my-4 text-2xl">The paragraph font used on Cosmos Cleaner's website and in-game <em>(specifically for "Cosmos" in the logo, game/website paragraphs, and game/website headings)</em> is <LinkExternal href="https://github.com/cadsondemak/Bai-Jamjuree" title="View Bai Jamjuree on GitHub">Bai Jamjuree</LinkExternal> and was created by <LinkExternal href="https://github.com/itfoundry" title="Go to Cadson Demak, the Creator of Bai Jamjuree, on GitHub">Cadson Demak</LinkExternal> (Copyright 2008 Cadson Demak) (<LinkExternal href="https://scripts.sil.org/ofl" title="View the Official SIL Open Font License 1.1 at scripts.sil.org/ofl">SIL Open Font License 1.1</LinkExternal>).</p>
-              <p className="my-4 text-2xl">The display font used on Cosmos Cleaner's website and in-game <em>(specifically for "Cleaner" in the logo)</em> is <LinkExternal href="http://www.rdftype.it/?/projects/sonsie/" title="View Sonsie One of Riccardo De Franceschi's Website">Sonsie One</LinkExternal> and was created by <LinkExternal href="http://www.rdftype.it" title="Go to Riccardo De Franceschi, the Creator of Sonsie One, at www.rdftype.it">Riccardo De Franceschi</LinkExternal> (Copyright 2011 Riccardo De Franceschi) (<LinkExternal href="https://scripts.sil.org/ofl" title="View the Official SIL Open Font License 1.1 at scripts.sil.org/ofl">SIL Open Font License 1.1</LinkExternal>).</p>
+              <h2 id="fonts">Fonts</h2>
+              <p>The paragraph font used on Cosmos Cleaner's website and in-game <em>(specifically for "Cosmos" in the logo, game/website paragraphs, and game/website headings)</em> is <LinkExternal href="https://github.com/cadsondemak/Bai-Jamjuree" title="View Bai Jamjuree on GitHub">Bai Jamjuree</LinkExternal> and was created by <LinkExternal href="https://github.com/itfoundry" title="Go to Cadson Demak, the Creator of Bai Jamjuree, on GitHub">Cadson Demak</LinkExternal> (Copyright 2008 Cadson Demak) (<LinkExternal href="https://scripts.sil.org/ofl" title="View the Official SIL Open Font License 1.1 at scripts.sil.org/ofl">SIL Open Font License 1.1</LinkExternal>).</p>
+              <p>The display font used on Cosmos Cleaner's website and in-game <em>(specifically for "Cleaner" in the logo)</em> is <LinkExternal href="http://www.rdftype.it/?/projects/sonsie/" title="View Sonsie One of Riccardo De Franceschi's Website">Sonsie One</LinkExternal> and was created by <LinkExternal href="http://www.rdftype.it" title="Go to Riccardo De Franceschi, the Creator of Sonsie One, at www.rdftype.it">Riccardo De Franceschi</LinkExternal> (Copyright 2011 Riccardo De Franceschi) (<LinkExternal href="https://scripts.sil.org/ofl" title="View the Official SIL Open Font License 1.1 at scripts.sil.org/ofl">SIL Open Font License 1.1</LinkExternal>).</p>
 
-              <h2 id="usage" className="mt-8 mb-4 text-4xl font-bold">Usage Permission</h2>
-              <p className="my-4 text-2xl">If you are writing about, sharing videos of, or streaming Cosmos Cleaner, thank you! Please use this media/press kit, any in-game content, and any website content (all with proper attribution where useful) in your publications, websites, streams, or videos whether commercial or non-commercial.</p>
-              <p className="my-4 text-2xl">Use Cosmos Cleaner and its content (in-game content, the website, relevant information, relevant media, etc.) at your own risk. None of the developers, contributors, or anyone else connected with Cosmos Cleaner, in any way whatsoever, can be responsible for your use of the game, the website, this media/press kit, and the information/media contained in or linked to/from the game, the website, and this media/press kit.</p>
-
-
-              <h2 id="changes" className="mt-8 text-4xl font-bold">Media/Press Kit Changes</h2>
-              <p className="my-4 text-2xl">Although most changes are likely to be minor, Cosmos Cleaner may change this media/press kit from time to time, and in Cosmos Cleaner’s sole discretion. Cosmos Cleaner encourages users to frequently check this page for any changes to this kit.</p>
-              <p className="my-4 text-2xl"><i>This media/press kit was last updated on September 6, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">website files on GitHub</LinkExternal> for version history.</i></p>
+              <h2 id="usage">Usage Permission</h2>
+              <p>If you are writing about, sharing videos of, or streaming Cosmos Cleaner, thank you! Please use this kit, any in-game content, and any website content (all with proper attribution where useful) in your publications, websites, streams, or videos whether commercial or non-commercial.</p>
+              <p>Use Cosmos Cleaner and its content (in-game content, the website, relevant information, relevant media, etc.) at your own risk. None of the developers, contributors, or anyone else connected with Cosmos Cleaner, in any way whatsoever, can be responsible for your use of the game, the website, this kit, and the information/media contained in or linked to/from the game, the website, and this kit.</p>
 
 
-              <h2 id="contact-info" className="mt-8 text-4xl font-bold">Contact Information</h2>
-              <p className="my-4 text-2xl">If you have any questions about this media/press kit, please contact Cosmos Cleaner via email at <LinkExternal href="mailto:contact@cosmoscleaner.com" title="Contact Cosmos Cleaner via Email at Contact@CosmosCleaner.com">Contact@CosmosCleaner.com</LinkExternal></p>
+              <h2 id="changes">Kit Changes</h2>
+              <p>Although most changes are likely to be minor, Cosmos Cleaner may change this kit from time to time, and in Cosmos Cleaner’s sole discretion. Cosmos Cleaner encourages users to frequently check this page for any changes to this kit.</p>
+              <p><i>This kit was last updated on September 6, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">website files on GitHub</LinkExternal> for version history.</i></p>
+
+
+              <h2 id="contact-info">Contact Information</h2>
+              <p>If you have any questions about this kit, please contact Cosmos Cleaner via email at <LinkExternal className="max-sm:break-all" href="mailto:contact@cosmoscleaner.com" title="Contact Cosmos Cleaner via Email at Contact@CosmosCleaner.com">Contact@CosmosCleaner.com</LinkExternal></p>
           </section>
         </article>
       </main>
