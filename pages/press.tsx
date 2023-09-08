@@ -232,7 +232,7 @@ const copyrightPage: NextPage = () => {
 
               <h2 id="changes">Kit Changes</h2>
               <p>Although most changes are likely to be minor, Cosmos Cleaner may change this kit from time to time, and in Cosmos Cleaner’s sole discretion. Cosmos Cleaner encourages users to frequently check this page for any changes to this kit.</p>
-              <p><i>This kit was last updated on September 6, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">website files on GitHub</LinkExternal> for version history.</i></p>
+              <p><i>This kit was last updated on September 8, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">website files on GitHub</LinkExternal> for version history.</i></p>
 
 
               <h2 id="contact-info">Contact Information</h2>
