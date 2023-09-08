@@ -24,9 +24,9 @@ const homePage: NextPage = () => {
           alt="Cosmos Cleaner"
           className="md:hidden"
         />
-        <h1 className="text-3xl max-sm:text-2xl">Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!</h1>
+        <h1 className="mt-6 font-normal text-3xl max-sm:text-2xl">Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!</h1>
 
-        <p className="mt-20 mb-10 text-white bg-lime-500 py-3 px-5 font-bold text-lg rounded-md">
+        <p className="mt-24 mb-20 text-white bg-lime-500 py-3 px-5 font-bold text-lg rounded-md">
           Coming Soon
         </p>
       </main>
