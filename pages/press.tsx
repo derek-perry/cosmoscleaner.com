@@ -24,6 +24,24 @@ const copyrightPage: NextPage = () => {
               <p className="mb-3">This kit features Cosmos Cleaner facts, a description, links, brand color information, and images like logos. The materials in this kit are ready for use in your publications regarding Cosmos Cleaner. <em>(See <LinkInternal href="press#usage" title="Read the Usage Permission for the Cosmos Cleaner Media Kit">Usage Permission</LinkInternal> Below)</em></p>
               <ButtonInternal className="text-2xl" href="kit.zip" title="Download Cosmos Cleaner Media Kit">Download</ButtonInternal>
 
+              <h2 id="facts" className="mt-12">Facts</h2>
+              <p><strong>Name:</strong> Cosmos Cleaner</p>
+              <p><strong>Short Description:</strong> Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!</p>
+              <p><strong>Primary Contact:</strong> Contact@CosmosCleaner.com</p>
+              <p><strong>Developer:</strong> Derek Perry, dp@dp.design, <LinkExternal href="https://dp.design" title="Go to Derek Perry, the developer of Cosmos Cleaner, at dp.design">dp.design</LinkExternal></p>
+              <p><strong>Platform Information:</strong> Windows 10/Windows 11 Direct Download (<LinkInternal href="play" title="Download and Play Cosmos Cleaner on Windows 10 or 11 at CosmosCleaner.com/play">CosmosCleaner.com/play</LinkInternal>), Mac (Planned), Linux (Planned), Android (Planned), iOS (Planned)</p>
+              <p><strong>Price:</strong> Free</p>
+              <p><strong>Game Made Using:</strong> Unreal Engine 5.2.1, Adobe Photoshop, Adobe Illustrator</p>
+              <p><strong>Website Made Using:</strong> Next.js, Typescript, Tailwind CSS, Netlify, Adobe Photoshop, Adobe Illustrator</p>
+
+              <h2 id="links">Links</h2>
+              <p><strong>Game Website:</strong> <LinkInternal href="" title="Visit the game website for Cosmos Cleaner at CosmosCleaner.com">CosmosCleaner.com</LinkInternal></p>
+              <p><strong>Game Privacy Policy:</strong> <LinkInternal href="privacy" title="Visit the privacy policy for Cosmos Cleaner at CosmosCleaner.com/privacy">CosmosCleaner.com/privacy</LinkInternal></p>
+              <p><strong>Game Copyright Information:</strong> <LinkInternal href="copyright" title="View the copyright information for Cosmos Cleaner at CosmosCleaner.com/copyright">CosmosCleaner.com/copyright</LinkInternal></p>
+              <p><strong>Game By:</strong> <LinkExternal href="https://dp.design" title="Go to Derek Perry, the creator of Cosmos Cleaner, at dp.design">Derek Perry - dp.design</LinkExternal></p>
+              <p><strong>Game GitHub:</strong> <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="Visit the GitHub for Cosmos Cleaner at github.com/derek-perry/CosmosCleaner">github.com/derek-perry/CosmosCleaner</LinkExternal></p>
+              <p><strong>Website GitHub:</strong> <LinkExternal href="https://github.com/derek-perry/CosmosCleaner-Website" title="Visit the GitHub for Cosmos Cleaner's Website at github.com/derek-perry/CosmosCleaner-Website">github.com/derek-perry/CosmosCleaner-Website</LinkExternal></p>
+
               <h2 id="logos">Logos</h2>
               <h3 id="logos-vertical">Vertical</h3>
               <div className="flex flex-col gap-8">
@@ -232,7 +250,7 @@ const copyrightPage: NextPage = () => {
 
               <h2 id="changes">Kit Changes</h2>
               <p>Although most changes are likely to be minor, Cosmos Cleaner may change this kit from time to time, and in Cosmos Cleaner’s sole discretion. Cosmos Cleaner encourages users to frequently check this page for any changes to this kit.</p>
-              <p><i>This kit was last updated on September 8, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">website files on GitHub</LinkExternal> for version history.</i></p>
+              <p><i>This kit was last updated on September 10, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">website files on GitHub</LinkExternal> for version history.</i></p>
 
 
               <h2 id="contact-info">Contact Information</h2>
