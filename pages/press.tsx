@@ -28,17 +28,17 @@ const copyrightPage: NextPage = () => {
               <p><strong>Name:</strong> Cosmos Cleaner</p>
               <p><strong>Short Description:</strong> Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!</p>
               <p><strong>Primary Contact:</strong> Contact@CosmosCleaner.com</p>
-              <p><strong>Developer:</strong> Derek Perry, dp@dp.design, <LinkExternal href="https://dp.design" title="Go to Derek Perry, the developer of Cosmos Cleaner, at dp.design">dp.design</LinkExternal></p>
+              <p><strong>Developer:</strong> Derek Perry, dp@derek-perry.com, <LinkExternal href="https://derek-perry.com" title="Go to Derek Perry, the developer of Cosmos Cleaner, at derek-perry.com">derek-perry.com</LinkExternal></p>
               <p><strong>Platform Information:</strong> Windows 10/Windows 11 Direct Download (<LinkInternal href="play" title="Download and Play Cosmos Cleaner on Windows 10 or 11 at CosmosCleaner.com/play">CosmosCleaner.com/play</LinkInternal>), Mac (Planned), Linux (Planned), Android (Planned), iOS (Planned)</p>
               <p><strong>Price:</strong> Free</p>
-              <p><strong>Game Made Using:</strong> Unreal Engine 5.2.1, Adobe Photoshop, Adobe Illustrator</p>
+              <p><strong>Game Made Using:</strong> Unreal Engine 5.3.1, Adobe Photoshop, Adobe Illustrator</p>
               <p><strong>Website Made Using:</strong> Next.js, Typescript, Tailwind CSS, Netlify, Adobe Photoshop, Adobe Illustrator</p>
 
               <h2 id="links">Links</h2>
               <p><strong>Game Website:</strong> <LinkInternal href="" title="Visit the game website for Cosmos Cleaner at CosmosCleaner.com">CosmosCleaner.com</LinkInternal></p>
               <p><strong>Game Privacy Policy:</strong> <LinkInternal href="privacy" title="Visit the privacy policy for Cosmos Cleaner at CosmosCleaner.com/privacy">CosmosCleaner.com/privacy</LinkInternal></p>
               <p><strong>Game Copyright Information:</strong> <LinkInternal href="copyright" title="View the copyright information for Cosmos Cleaner at CosmosCleaner.com/copyright">CosmosCleaner.com/copyright</LinkInternal></p>
-              <p><strong>Game By:</strong> <LinkExternal href="https://dp.design" title="Go to Derek Perry, the creator of Cosmos Cleaner, at dp.design">Derek Perry - dp.design</LinkExternal></p>
+              <p><strong>Game By:</strong> <LinkExternal href="https://derek-perry.com" title="Go to Derek Perry, the creator of Cosmos Cleaner, at derek-perry.com">Derek Perry - derek-perry.com</LinkExternal></p>
               <p><strong>Game GitHub:</strong> <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="Visit the GitHub for Cosmos Cleaner at github.com/derek-perry/CosmosCleaner">github.com/derek-perry/CosmosCleaner</LinkExternal></p>
               <p><strong>Website GitHub:</strong> <LinkExternal href="https://github.com/derek-perry/CosmosCleaner-Website" title="Visit the GitHub for Cosmos Cleaner's Website at github.com/derek-perry/CosmosCleaner-Website">github.com/derek-perry/CosmosCleaner-Website</LinkExternal></p>
 
@@ -250,7 +250,7 @@ const copyrightPage: NextPage = () => {
 
               <h2 id="changes">Kit Changes</h2>
               <p>Although most changes are likely to be minor, Cosmos Cleaner may change this kit from time to time, and in Cosmos Cleaner’s sole discretion. Cosmos Cleaner encourages users to frequently check this page for any changes to this kit.</p>
-              <p><i>This kit was last updated on September 10, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">website files on GitHub</LinkExternal> for version history.</i></p>
+              <p><i>This kit was last updated on October 16, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">website files on GitHub</LinkExternal> for version history.</i></p>
 
 
               <h2 id="contact-info">Contact Information</h2>

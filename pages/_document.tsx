@@ -38,8 +38,8 @@ export default function Document() {
         "author": {
           "@type": "Person",
           "name": "Derek Perry",
-          "url": "https://dp.design",
-          "email": "dp@dp.design",
+          "url": "https://derek-perry.com",
+          "email": "dp@derek-perry.com",
           "sameAs": [
             "https://github.com/derek-perry",
             "https://twitter.com/_derekperry",
@@ -65,7 +65,7 @@ export default function Document() {
         "copyrightYear": "2023",
         "datePublished": "2023-04-09",
         "dateCreated": "2023-04-09",
-        "dateModified": "2023-09-07T03:07",
+        "dateModified": "2023-10-16T11:23",
         "isFamilyFriendly": true,
         "interactivityType": "active",
         "accessibilityControl": [
