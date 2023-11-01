@@ -22,7 +22,7 @@ _[Website, Web Design]_
 ---
 
 ### Copyright/License Information
-**[Cosmos Cleaner](https://CosmosCleaner.com "Visit the game website for Cosmos Cleaner at CosmosCleaner.com") Copyright 2023 [Derek Perry](https://derek-perry.com "Go to Derek Perry, the developer of Cosmos Cleaner, at derek-perry.com")**
+**[Cosmos Cleaner](https://CosmosCleaner.com "Visit the game website for Cosmos Cleaner at CosmosCleaner.com") TM Copyright 2023 [Derek Perry](https://dp.design "Go to Derek Perry, the developer of Cosmos Cleaner, at dp.design")**
 
 **Some rights reserved.**
 
