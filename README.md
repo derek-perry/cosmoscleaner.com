@@ -11,11 +11,13 @@ _[Website, Web Design]_
 
 ### Links
 - **Game Website:** [CosmosCleaner.com](https://CosmosCleaner.com "Visit the game website for Cosmos Cleaner at CosmosCleaner.com")
+- **Game Wiki:** [Wiki.CosmosCleaner.com](https://Wiki.CosmosCleaner.com "Visit the game wiki for Cosmos Cleaner at Wiki.CosmosCleaner.com")
 - **Game Privacy Policy:** [CosmosCleaner.com/privacy](https://CosmosCleaner.com/privacy "Visit the privacy policy for Cosmos Cleaner at CosmosCleaner.com/privacy")
 - **Game Copyright Information:** [CosmosCleaner.com/copyright](https://CosmosCleaner.com/copyright "View the copyright information for Cosmos Cleaner at CosmosCleaner.com/copyright")
 - **Game By:** [Derek Perry - derek-perry.com](https://derek-perry.com "Go to Derek Perry, the developer of Cosmos Cleaner, at derek-perry.com")
 - **Game GitHub:** [github.com/derek-perry/CosmosCleaner](https://github.com/derek-perry/CosmosCleaner "Visit the GitHub for Cosmos Cleaner at github.com/derek-perry/CosmosCleaner")
 - **Website GitHub:** [github.com/derek-perry/cosmoscleaner.com](https://github.com/derek-perry/cosmoscleaner.com "Visit the GitHub for Cosmos Cleaner's Website at github.com/derek-perry/cosmoscleaner.com")
+- **Wiki GitHub:** [github.com/derek-perry/wiki.cosmoscleaner.com](https://github.com/derek-perry/wiki.cosmoscleaner.com "Visit the GitHub for Cosmos Cleaner's Wiki at github.com/derek-perry/wiki.cosmoscleaner.com")
 
 ---
 
@@ -25,6 +27,8 @@ _[Website, Web Design]_
 **Some rights reserved.**
 
 Use of [the code for Cosmos Cleaner's website](https://github.com/derek-perry/cosmoscleaner.com "Visit the GitHub for Cosmos Cleaner's Website at github.com/derek-perry/cosmoscleaner.com") is licensed under the [MIT License](https://mit.edu/~amini/LICENSE.md "View the Official MIT License at mit.edu/~amini/LICENSE.md"). (See below for more details)
+
+Use of [the code for Cosmos Cleaner's wiki](https://github.com/derek-perry/wiki.cosmoscleaner.com "Visit the GitHub for Cosmos Cleaner's Wiki at github.com/derek-perry/wiki.cosmoscleaner.com") is licensed under the [BSD 2-Clause "Simplified" License](https://github.com/mkdocs/mkdocs/blob/master/LICENSE "View the Official MIT License at github.com/mkdocs/mkdocs/blob/master/LICENSE"). (See the wiki's [README.md](https://github.com/derek-perry/wiki.cosmoscleaner.com#readme "Visit the README.md file in the GitHub repo for Cosmos Cleaner's Wiki at github.com/derek-perry/wiki.cosmoscleaner.com#readme") for more details)
 
 However, use  of [Cosmos Cleaner’s code](https://github.com/derek-perry/CosmosCleaner "View Cosmos Cleaner by Derek Perry on GitHub") is strictly forbidden. (See the game's [README.md](https://github.com/derek-perry/CosmosCleaner#readme "Visit the README.md file in the GitHub repo for Cosmos Cleaner at github.com/derek-perry/CosmosCleaner#readme") for more details)
 
@@ -52,8 +56,8 @@ However, use  of [Cosmos Cleaner’s code](https://github.com/derek-perry/Cosmos
 
 **Website Sources Used:**
 
+This website was created using [Next+Tailwind Starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter"). If you use [Next+Tailwind Starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter") or [Next.js + Tailwind CSS Example](https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss "Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss"), please retain the licenses which were used in the development of [Next+Tailwind Starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter") and [Next.js + Tailwind CSS Example](https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss "Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss").
+
 [Next+Tailwind Starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter") and the source [Next.js + Tailwind CSS Example](https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss "Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss") are licensed under the [MIT License](https://mit.edu/~amini/LICENSE.md "View the Official MIT License at mit.edu/~amini/LICENSE.md")
 
 _(View the accompanying LICENSE file for more information on the "[MIT License](https://mit.edu/~amini/LICENSE.md "View the Official MIT License at mit.edu/~amini/LICENSE.md")" license.)_
-
-This website was created using [Next+Tailwind Starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter"). If you use [Next+Tailwind Starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter") or [Next.js + Tailwind CSS Example](https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss "Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss"), please retain the licenses which were used in the development of [Next+Tailwind Starter](https://github.com/derek-perry/next-tailwind-starter "Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter") and [Next.js + Tailwind CSS Example](https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss "Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss").
