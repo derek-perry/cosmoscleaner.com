@@ -15,7 +15,7 @@ _[Website, Web Design]_
 - **Game Copyright Information:** [CosmosCleaner.com/copyright](https://CosmosCleaner.com/copyright "View the copyright information for Cosmos Cleaner at CosmosCleaner.com/copyright")
 - **Game By:** [Derek Perry - derek-perry.com](https://derek-perry.com "Go to Derek Perry, the developer of Cosmos Cleaner, at derek-perry.com")
 - **Game GitHub:** [github.com/derek-perry/CosmosCleaner](https://github.com/derek-perry/CosmosCleaner "Visit the GitHub for Cosmos Cleaner at github.com/derek-perry/CosmosCleaner")
-- **Website GitHub:** [github.com/derek-perry/CosmosCleaner-Website](https://github.com/derek-perry/CosmosCleaner-Website "Visit the GitHub for Cosmos Cleaner's Website at github.com/derek-perry/CosmosCleaner-Website")
+- **Website GitHub:** [github.com/derek-perry/cosmoscleaner.com](https://github.com/derek-perry/cosmoscleaner.com "Visit the GitHub for Cosmos Cleaner's Website at github.com/derek-perry/cosmoscleaner.com")
 
 ---
 
@@ -24,7 +24,7 @@ _[Website, Web Design]_
 
 **Some rights reserved.**
 
-Use of [the code for Cosmos Cleaner's website](https://github.com/derek-perry/CosmosCleaner-Website "Visit the GitHub for Cosmos Cleaner's Website at github.com/derek-perry/CosmosCleaner-Website") is licensed under the [MIT License](https://mit.edu/~amini/LICENSE.md "View the Official MIT License at mit.edu/~amini/LICENSE.md"). (See below for more details)
+Use of [the code for Cosmos Cleaner's website](https://github.com/derek-perry/cosmoscleaner.com "Visit the GitHub for Cosmos Cleaner's Website at github.com/derek-perry/cosmoscleaner.com") is licensed under the [MIT License](https://mit.edu/~amini/LICENSE.md "View the Official MIT License at mit.edu/~amini/LICENSE.md"). (See below for more details)
 
 However, use  of [Cosmos Cleaner’s code](https://github.com/derek-perry/CosmosCleaner "View Cosmos Cleaner by Derek Perry on GitHub") is strictly forbidden. (See the game's [README.md](https://github.com/derek-perry/CosmosCleaner#readme "Visit the README.md file in the GitHub repo for Cosmos Cleaner at github.com/derek-perry/CosmosCleaner#readme") for more details)
 
