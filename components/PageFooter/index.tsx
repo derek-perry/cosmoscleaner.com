@@ -31,7 +31,7 @@ const PageFooter = (): JSX.Element => {
           </div>
           <div className="flex flex-row flex-wrap gap-x-8 gap-y-2 text-center items-center justify-center">
                 <p className="text-lg"><LinkInternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500 no-underline" href="" title="Cosmos Cleaner">Cosmos Cleaner</LinkInternal> © {currentYear}</p>
-                <p className="text-lg">Game and Website by <LinkExternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="https://derek-perry.com" title="Go to Derek Perry's Website at derek-perry.com">Derek Perry</LinkExternal> <Image className="pl-2 inline" src={process.env.NEXT_PUBLIC_SITE_URL + '/dp.svg' || './dp.svg'} alt="" width={33} height={33} /></p>
+                <p className="text-lg">Game by <LinkExternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="https://derek-perry.com" title="Go to Derek Perry's Website at derek-perry.com">Derek Perry</LinkExternal> <Image className="pl-2 inline" src={process.env.NEXT_PUBLIC_SITE_URL + '/dp.svg' || './dp.svg'} alt="" width={33} height={33} /></p>
           </div>
         </div>
       </footer>
