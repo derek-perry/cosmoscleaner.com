@@ -1,7 +1,7 @@
-import type { NextPage } from 'next'
-import SiteHead from "../components/SiteHead"
-import PageFooter from "../components/PageFooter"
-import ButtonInternal from "../components/Buttons/ButtonInternal"
+import type { NextPage } from 'next';
+import SiteHead from '../components/SiteHead';
+import PageFooter from '../components/PageFooter';
+import ButtonInternal from '../components/Buttons/ButtonInternal';
 
 const error404Page: NextPage = () => {
   return (
@@ -20,7 +20,7 @@ const error404Page: NextPage = () => {
 
       <PageFooter />
     </div>
-  )
-}
+  );
+};
 
-export default error404Page
+export default error404Page;

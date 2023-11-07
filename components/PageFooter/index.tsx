@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import LinkInternal from "../Links/LinkInternal"
-import LinkExternal from "../Links/LinkExternal"
+import Image from 'next/image';
+import LinkInternal from '../Links/LinkInternal';
+import LinkExternal from '../Links/LinkExternal';
 
 const PageFooter = (): JSX.Element => {
   let currentYear: number=new Date().getFullYear();
@@ -35,7 +35,7 @@ const PageFooter = (): JSX.Element => {
           </div>
         </div>
       </footer>
-  )
-}
+  );
+};
 
-export default PageFooter
+export default PageFooter;

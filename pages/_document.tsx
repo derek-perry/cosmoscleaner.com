@@ -1,5 +1,5 @@
-import { Html, Head, Main, NextScript } from 'next/document'
-import Script from 'next/script'
+import { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/script';
 
 export default function Document() {
   const addJsonLd = () => {
@@ -80,8 +80,8 @@ export default function Document() {
         ],
         "inLanguage": "en-US"
       }`
-    }
-  }
+    };
+  };
   return (
     <Html lang="en">
       <Head>
@@ -108,5 +108,5 @@ export default function Document() {
         <NextScript />
       </body>
     </Html>
-  )
-}
+  );
+};

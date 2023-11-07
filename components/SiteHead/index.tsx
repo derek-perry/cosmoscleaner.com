@@ -1,11 +1,11 @@
-import { FC } from 'react'
-import Head from 'next/head'
+import { FC } from 'react';
+import Head from 'next/head';
 
 interface ISiteHeadProps {
   title: string;
   description: string;
   url: string;
-}
+};
 
 const SiteHead: FC<ISiteHeadProps> = ({
   title,
@@ -48,7 +48,7 @@ const SiteHead: FC<ISiteHeadProps> = ({
       <meta name="msapplication-TileImage" content={process.env.NEXT_PUBLIC_SITE_URL + '/mstile-144x144.png' || 'https://cosmoscleaner.com/mstile-144x144.png'} />
       <meta name="theme-color" content="#1e3a8a" />
     </Head>
-  )
-}
+  );
+};
 
-export default SiteHead
+export default SiteHead;

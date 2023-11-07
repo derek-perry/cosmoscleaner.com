@@ -1,8 +1,7 @@
-import type { NextPage } from 'next'
-import SiteHead from "../components/SiteHead"
-import PageFooter from "../components/PageFooter"
-import LinkExternal from "../components/Links/LinkExternal"
-import Image from 'next/image'
+import type { NextPage } from 'next';
+import SiteHead from '../components/SiteHead';
+import PageFooter from '../components/PageFooter';
+import Image from 'next/image';
 
 const homePage: NextPage = () => {
   return (
@@ -33,7 +32,7 @@ const homePage: NextPage = () => {
 
       <PageFooter />
     </div>
-  )
-}
+  );
+};
 
-export default homePage
+export default homePage;
