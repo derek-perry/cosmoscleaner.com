@@ -1,8 +1,8 @@
 import type { NextPage } from 'next';
 import SiteHead from '../components/SiteHead';
 import PageFooter from '../components/PageFooter';
-import LinkInternal from '../components/Links/LinkInternal';
 import LinkExternal from '../components/Links/LinkExternal';
+import ButtonInternal from '../components/Buttons/ButtonInternal';
 
 const copyrightPage: NextPage = () => {
   return (
@@ -13,16 +13,15 @@ const copyrightPage: NextPage = () => {
         <article id="copyright">
           <section id="contentheader">
             <h1>Cosmos Cleaner Copyright & License Info</h1>
-            <LinkInternal href="" title="Go to the home/index page of CosmosCleaner.com"><p>Go to Homepage</p></LinkInternal>
+            <ButtonInternal href="" title="Go to the home/index page of CosmosCleaner.com"><p>Go to Homepage</p></ButtonInternal>
           </section>
 
           <section id="copyrightlicenseoverview" className="max-w-[1000px] text-left">
             <h2 id="copyrightoverview">Copyright Overview</h2>
-            <p>Cosmos Cleaner is copyright 2023. Some rights are reserved. Keep reading to learn more.</p>
+            <p>Cosmos Cleaner™ is copyright © 2023. Some rights are reserved. Keep reading to learn more.</p>
             <p>The name "Cosmos Cleaner" is a trademark starting in 2023 under the sole ownership of <LinkExternal href="https://derek-perry.com" title="Go to Derek Perry's Website at derek-perry.com">Derek Perry</LinkExternal>.</p>
             <p>The Cosmos Cleaner name, logo, logotype, and icon are trademarks starting in 2023 under the sole ownership of <LinkExternal href="https://derek-perry.com" title="Go to Derek Perry's Website at derek-perry.com">Derek Perry</LinkExternal> and the Cosmos Cleaner brand.</p>
             <p>The Cosmos Cleaner's <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">game code on GitHub</LinkExternal> is copyprotected starting in 2023 under the sole ownership of <LinkExternal href="https://derek-perry.com" title="Go to Derek Perry's Website at derek-perry.com">Derek Perry</LinkExternal> and the Cosmos Cleaner brand.</p>
-
 
             <h2 id="licenses">License Information</h2>
 
@@ -42,11 +41,9 @@ const copyrightPage: NextPage = () => {
             <p>The display font used on Cosmos Cleaner's website <em>(specifically for "Cleaner" in the logo)</em> is <LinkExternal href="http://www.rdftype.it/?/projects/sonsie/" title="View Sonsie One of Riccardo De Franceschi's Website">Sonsie One</LinkExternal> and was created by <LinkExternal href="http://www.rdftype.it" title="Go to Riccardo De Franceschi, the Creator of Sonsie One, at www.rdftype.it">Riccardo De Franceschi</LinkExternal> (Copyright 2011 Riccardo De Franceschi) (<LinkExternal href="https://scripts.sil.org/ofl" title="View the Official SIL Open Font License 1.1 at scripts.sil.org/ofl">SIL Open Font License 1.1</LinkExternal>).</p>
             <p>The Cosmos Cleaner website was created using <LinkExternal href="https://github.com/derek-perry/next-tailwind-starter" title="Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter">Next+Tailwind Starter</LinkExternal> which was created using <LinkExternal href="https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss" title="Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss">Next.js + Tailwind CSS Example</LinkExternal>. If you use <LinkExternal href="https://github.com/derek-perry/next-tailwind-starter" title="Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter">Next+Tailwind Starter</LinkExternal> or <LinkExternal href="https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss" title="Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss">Next.js + Tailwind CSS Example</LinkExternal>, please retain the licenses which were used in the development of <LinkExternal href="https://github.com/derek-perry/next-tailwind-starter" title="Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter">Next+Tailwind Starter</LinkExternal> and <LinkExternal href="https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss" title="Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss">Next.js + Tailwind CSS Example</LinkExternal>. <LinkExternal href="https://github.com/derek-perry/next-tailwind-starter" title="Visit the GitHub repository for this Next+Tailwind Starter at github.com/derek-perry/next-tailwind-starter">Next+Tailwind Starter</LinkExternal> and the source <LinkExternal href="https://github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss" title="Visit the Official Next.js + Tailwind CSS Example that this Starter was Based On at github.com/vercel/next.js/tree/deprecated-main/examples/with-tailwindcss">Next.js + Tailwind CSS Example</LinkExternal> are licensed under the <LinkExternal href="https://mit.edu/~amini/LICENSE.md" title="View the Official MIT License at mit.edu/~amini/LICENSE.md">MIT License</LinkExternal>.</p>
 
-
             <h2 id="changes">Copyright and License Changes</h2>
             <p>Although most changes are likely to be minor, Cosmos Cleaner may change this Copyright and License Overview from time to time, and in Cosmos Cleaner’s sole discretion. Cosmos Cleaner encourages users to frequently check this page for any changes to this Copyright and License Overview. Your continued use of this site after any change in this Copyright and License Overview will constitute your acceptance of such change.</p>
-            <p><i>This Copyright and License Overview was last updated on November 11, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">website files on GitHub</LinkExternal> for version history.</i></p>
-
+            <p><i>This Copyright and License Overview was last updated on November 7, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">website files on GitHub</LinkExternal> for version history.</i></p>
 
             <h2 id="contact-info">Contact Information</h2>
             <p>If you have any questions about this Copyright and License Overview, please contact Cosmos Cleaner via email at <LinkExternal className="max-sm:break-all" href="mailto:contact@cosmoscleaner.com" title="Contact Cosmos Cleaner via Email at Contact@CosmosCleaner.com">Contact@CosmosCleaner.com</LinkExternal></p>
