@@ -60,7 +60,6 @@ const copyrightPage: NextPage = () => {
             <p><strong>Threads:</strong> <LinkExternal href="https://threads.net/@CosmosCleaner" title="Visit the Threads for Cosmos Cleaner at threads.net/@CosmosCleaner">threads.net/@CosmosCleaner</LinkExternal></p>
             <p><strong>YouTube:</strong> <LinkExternal href="https://youtube.com/@CosmosCleaner" title="Visit the YouTube for Cosmos Cleaner at youtube.com/@CosmosCleaner">youtube.com/@CosmosCleaner</LinkExternal></p>
             <p><strong>Reddit:</strong> <LinkExternal href="https://reddit.com/r/CosmosCleaner" title="Visit the Reddit for Cosmos Cleaner at reddit.com/r/CosmosCleaner">reddit.com/r/CosmosCleaner</LinkExternal></p>
-            <p><strong>LinkedIn:</strong> <LinkExternal href="https://linkedin.com/company/Piano-Music-Database" title="Visit the LinkedIn for Cosmos Cleaner at linkedin.com/company/Piano-Music-Database">linkedin.com/company/Piano-Music-Database</LinkExternal></p>
             <p><strong>Discord:</strong> <LinkExternal href="https://discord.gg/sncuXN5n2q" title="Join the Discord for Cosmos Cleaner at discord.gg/sncuXN5n2q">discord.gg/sncuXN5n2q</LinkExternal></p>
 
             <h2 id="logos">Logos</h2>
