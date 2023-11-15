@@ -29,7 +29,14 @@ const copyrightPage: NextPage = () => {
             <p><strong>Short Description:</strong> Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!</p>
             <p><strong>Primary Contact:</strong> Contact@CosmosCleaner.com</p>
             <p><strong>Developer:</strong> Derek Perry, dp@derek-perry.com, <LinkExternal href="https://derek-perry.com" title="Go to Derek Perry, the developer of Cosmos Cleaner, at derek-perry.com">derek-perry.com</LinkExternal></p>
-            <p><strong>Platform Information:</strong> Windows 10/Windows 11 Direct Download (<LinkInternal href="play" title="Download and Play Cosmos Cleaner on Windows 10 or 11 at CosmosCleaner.com/play">CosmosCleaner.com/play</LinkInternal>), Mac (Planned), Linux (Planned), Android (Planned), iOS (Planned)</p>
+            <p><strong>Platform Information:</strong></p>
+            <ul className="text-2xl list-disc pl-8">
+              <li>Windows 10/Windows 11 Direct Download (<LinkInternal href="play" title="Download and Play Cosmos Cleaner on Windows 10 or 11 at CosmosCleaner.com/play">CosmosCleaner.com/play</LinkInternal>)</li>
+              <li>Mac (Planned)</li>
+              <li>Linux (Planned)</li>
+              <li>Android (Planned)</li>
+              <li>iOS (Planned)</li>
+            </ul>
             <p><strong>Price:</strong> Free</p>
             <p><strong>Game Made Using:</strong> Unreal Engine 5.3.2, Adobe Photoshop, Adobe Illustrator</p>
             <p><strong>Website Made Using:</strong> Next.js, Typescript, Tailwind CSS, Netlify, Adobe Photoshop, Adobe Illustrator</p>
@@ -254,7 +261,7 @@ const copyrightPage: NextPage = () => {
 
             <h2 id="changes">Kit Changes</h2>
             <p>Although most changes are likely to be minor, Cosmos Cleaner may change this kit from time to time, and in Cosmos Cleaner’s sole discretion. Cosmos Cleaner encourages users to frequently check this page for any changes to this kit.</p>
-            <p><i>This kit was last updated on November 14, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/cosmoscleaner.com" title="View the repository for CosmosCleaner.com at github.com/derek-perry/cosmoscleaner.com">website files on GitHub</LinkExternal> for version history.</i></p>
+            <p><i>This kit was last updated on November 15, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/cosmoscleaner.com" title="View the repository for CosmosCleaner.com at github.com/derek-perry/cosmoscleaner.com">website files on GitHub</LinkExternal> for version history.</i></p>
 
 
             <h2 id="contact-info">Contact Information</h2>
