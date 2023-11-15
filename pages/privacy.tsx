@@ -57,7 +57,7 @@ const privacyPage: NextPage = () => {
 
             <h2 id="changes">Privacy Policy Changes</h2>
             <p>Although most changes are likely to be minor, Cosmos Cleaner may change this privacy policy from time to time, and in Cosmos Cleaner’s sole discretion. Cosmos Cleaner encourages users to frequently check this page for any changes to this privacy policy. Your continued use of this site after any change in this privacy policy will constitute your acceptance of such change.</p>
-            <p><i>This privacy policy was last updated on November 7, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/cosmoscleaner.com" title="View CosmosCleaner.com by Derek Perry on GitHub">website files on GitHub</LinkExternal> for version history.</i></p>
+            <p><i>This privacy policy was last updated on November 14, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/cosmoscleaner.com" title="View the repository for CosmosCleaner.com at github.com/derek-perry/cosmoscleaner.com">website files on GitHub</LinkExternal> for version history.</i></p>
 
             <h2 id="contact-info">Contact Information</h2>
             <p>If you have any questions about this privacy policy, please contact Cosmos Cleaner via email at <LinkExternal className="max-sm:break-all" href="mailto:contact@cosmoscleaner.com" title="Contact Cosmos Cleaner via Email at Contact@CosmosCleaner.com">Contact@CosmosCleaner.com</LinkExternal></p>

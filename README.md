@@ -5,7 +5,7 @@ _(This repository contains the website for the game Cosmos Cleaner.)_
 
 _[Website, Web Design]_
 
-**Made Using:** Next.js, Typescript, Tailwind CSS, Netlify
+**Made Using:** Next.js, Typescript, Tailwind CSS, Netlify, Adobe Photoshop, Adobe Illustrator
 
 ---
 
