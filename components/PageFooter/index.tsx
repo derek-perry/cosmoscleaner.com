@@ -77,7 +77,7 @@ const PageFooter = (): JSX.Element => {
               alt="Reddit"
             />
           </LinkExternal>
-          <LinkExternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="https://discord.gg/sncuXN5n2q" title="CosmosCleaner on Discord">
+          <LinkExternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="https://discord.gg/sncuXN5n2q" title="Join the Official Cosmos Cleaner Discord">
             <Image
               src={process.env.NEXT_PUBLIC_SITE_URL + '/discord.svg' || './discord.svg'}
               width={42}

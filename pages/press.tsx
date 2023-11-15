@@ -53,6 +53,16 @@ const copyrightPage: NextPage = () => {
             <p><strong>Website GitHub:</strong> <LinkExternal href="https://github.com/derek-perry/cosmoscleaner.com" title="Visit the GitHub for Cosmos Cleaner's Website at github.com/derek-perry/cosmoscleaner.com">github.com/derek-perry/cosmoscleaner.com</LinkExternal></p>
             <p><strong>Wiki GitHub:</strong> <LinkExternal href="https://github.com/derek-perry/wiki.cosmoscleaner.com" title="Visit the GitHub for Cosmos Cleaner's Wiki at github.com/derek-perry/wiki.cosmoscleaner.com">github.com/derek-perry/wiki.cosmoscleaner.com</LinkExternal></p>
 
+            <h2 id="social">Social Media</h2>
+            <p><strong>X (formerly Twitter):</strong> <LinkExternal href="https://x.com/CosmosCleaner" title="Visit the X (formerly Twitter) for Cosmos Cleaner at x.com/CosmosCleaner">x.com/CosmosCleaner</LinkExternal></p>
+            <p><strong>Facebook:</strong> <LinkExternal href="https://facebook.com/CosmosCleaner" title="Visit the Facebook for Cosmos Cleaner at facebook.com/CosmosCleaner">facebook.com/CosmosCleaner</LinkExternal></p>
+            <p><strong>Instagram:</strong> <LinkExternal href="https://instagram.com/CosmosCleaner" title="Visit the Instagram for Cosmos Cleaner at instagram.com/CosmosCleaner">instagram.com/CosmosCleaner</LinkExternal></p>
+            <p><strong>Threads:</strong> <LinkExternal href="https://threads.net/@CosmosCleaner" title="Visit the Threads for Cosmos Cleaner at threads.net/@CosmosCleaner">threads.net/@CosmosCleaner</LinkExternal></p>
+            <p><strong>YouTube:</strong> <LinkExternal href="https://youtube.com/@CosmosCleaner" title="Visit the YouTube for Cosmos Cleaner at youtube.com/@CosmosCleaner">youtube.com/@CosmosCleaner</LinkExternal></p>
+            <p><strong>Reddit:</strong> <LinkExternal href="https://reddit.com/r/CosmosCleaner" title="Visit the Reddit for Cosmos Cleaner at reddit.com/r/CosmosCleaner">reddit.com/r/CosmosCleaner</LinkExternal></p>
+            <p><strong>LinkedIn:</strong> <LinkExternal href="https://linkedin.com/company/Piano-Music-Database" title="Visit the LinkedIn for Cosmos Cleaner at linkedin.com/company/Piano-Music-Database">linkedin.com/company/Piano-Music-Database</LinkExternal></p>
+            <p><strong>Discord:</strong> <LinkExternal href="https://discord.gg/sncuXN5n2q" title="Join the Discord for Cosmos Cleaner at discord.gg/sncuXN5n2q">discord.gg/sncuXN5n2q</LinkExternal></p>
+
             <h2 id="logos">Logos</h2>
             <h3 id="logos-vertical">Vertical</h3>
             <div className="flex flex-col gap-8">
