@@ -8,7 +8,7 @@ const PageFooter = (): JSX.Element => {
   return (
     <footer className="bg-blue-900 text-cyan-100 text-xl w-full">
       <div className="text-lg pt-14 pb-12 px-9 flex flex-col gap-y-14 text-center items-center justify-center">
-        <div className="flex flex-wrap gap-x-20 gap-y-2 text-center items-center justify-center">
+        <div className="flex flex-wrap gap-x-20 gap-y-8 text-center items-center justify-center">
           <LinkInternal
               className="max-md:basis-full m-auto flex text-center items-center justify-center" href="" title="Cosmos Cleaner">
             <Image
@@ -18,11 +18,11 @@ const PageFooter = (): JSX.Element => {
               alt="Cosmos Cleaner"
             />
           </LinkInternal>
-          <div className="flex flex-col gap-y-3 text-left items-left">
+          <div className="flex flex-col gap-y-3 text-left items-left max-md:text-center max-md:items-center">
             <LinkExternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="https://wiki.cosmoscleaner.com" title="Cosmos Cleaner Wiki">Wiki</LinkExternal>
             <LinkInternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="press" title="Media/Press Kit">Press</LinkInternal>
           </div>
-          <div className="flex flex-col gap-y-3 text-left items-left">
+          <div className="flex flex-col gap-y-3 text-left items-left max-md:text-center max-md:items-center">
             <LinkInternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="privacy" title="Privacy Policy">Privacy Policy</LinkInternal>
             <LinkInternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="tos" title="Terms of Service">Terms of Service</LinkInternal>
             <LinkInternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="copyright" title="Copyright/Licenses">Copyright/Licenses</LinkInternal>
