@@ -19,6 +19,41 @@ const nextConfig = {
         "permanent": true
       },
       {
+        "source": "/download",
+        "destination": "/play",
+        "permanent": true
+      },
+      {
+        "source": "/dl",
+        "destination": "/play",
+        "permanent": true
+      },
+      {
+        "source": "/install",
+        "destination": "/play",
+        "permanent": true
+      },
+      {
+        "source": "/buy",
+        "destination": "/play",
+        "permanent": true
+      },
+      {
+        "source": "/purchase",
+        "destination": "/play",
+        "permanent": true
+      },
+      {
+        "source": "/get",
+        "destination": "/play",
+        "permanent": true
+      },
+      {
+        "source": "/game",
+        "destination": "/play",
+        "permanent": true
+      },
+      {
         "source": "/brand",
         "destination": "/press",
         "permanent": true
