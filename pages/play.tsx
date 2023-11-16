@@ -30,9 +30,12 @@ const playPage: NextPage = () => {
         <div className="max-w-[596px] flex flex-wrap items-center align-center justify-center gap-6 mb-20">
           <div className="max-w-[590px] flex flex-col pb-3 px-3 bg-cyan-100 rounded">
             <h2 id="windows">Download for Windows</h2>
+            <p className="text-2xl mt-3"><em><strong>DISCLAIMER:</strong> This is Early Access! (Incomplete)</em></p>
+            <p className="text-lg">Send feedback with issues, suggestions, etc...</p>
+            <div className="h-px mt-3 bg-cyan-900" />
             <p className="text-lg mt-3"><strong>Game Version:</strong> v0.0.1w</p>
             <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
-            <p className="text-lg"><strong>File Type/Size:</strong> .exe program (434MB) in .zip (243MB)</p>
+            <p className="text-lg"><strong>File Type/Size:</strong> .exe (434MB) in .zip (243MB)</p>
             <p className="text-lg"><strong>How To Start:</strong> Download, unzip anywhere, enter folder, open .exe</p>
             <ButtonExternal className="text-2xl my-4" href="https://drive.google.com/uc?export=download&id=1JIgKMd2H_OjprY0axV72qSk2FUU9GOIB" title="Download Cosmos Cleaner for Windows 10/11 (64-bit)">Download</ButtonExternal>
             <p className="text-sm">By downloading/playing, you agree to the game's <LinkInternal href="tosgame" title="CosmosCleaner.com/tosgame">terms of service</LinkInternal> and <LinkInternal href="privacygame" title="CosmosCleaner.com/privacygame">privacy policy</LinkInternal>.</p>
