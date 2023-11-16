@@ -23,13 +23,13 @@ _[Website, Web Design]_
 - **Wiki GitHub:** [github.com/derek-perry/wiki.cosmoscleaner.com](https://github.com/derek-perry/wiki.cosmoscleaner.com "Visit the GitHub for Cosmos Cleaner's Wiki at github.com/derek-perry/wiki.cosmoscleaner.com")
 
 ## Social Media
-**X (formerly Twitter):** [x.com/CosmosCleaner](https://x.com/CosmosCleaner "Visit the X (formerly Twitter) for Cosmos Cleaner at twitter.com/CosmosCleaner")
-**Facebook:** [facebook.com/CosmosCleaner](https://facebook.com/CosmosCleaner "Visit the Facebook for Cosmos Cleaner at facebook.com/CosmosCleaner")
-**Instagram:** [instagram.com/CosmosCleaner](https://instagram.com/CosmosCleaner "Visit the Instagram for Cosmos Cleaner at instagram.com/CosmosCleaner")
-**Threads:** [threads.net/CosmosCleaner](https://threads.net/@CosmosCleaner "Visit the Threads for Cosmos Cleaner at threads.net/CosmosCleaner")
-**YouTube:** [youtube.com/@CosmosCleaner](https://youtube.com/@CosmosCleaner "Visit the YouTube for Cosmos Cleaner at youtube.com/@CosmosCleaner")
-**Reddit:** [reddit.com/r/CosmosCleaner](https://reddit.com/r/CosmosCleaner "Visit the Reddit for Cosmos Cleaner at reddit.com/r/CosmosCleaner")
-**Join the Discord:** [discord.gg/sncuXN5n2q](https://discord.gg/sncuXN5n2q "Join the Cosmos Cleaner Discord at discord.gg/sncuXN5n2q")
+- **X (formerly Twitter):** [x.com/CosmosCleaner](https://x.com/CosmosCleaner "Visit the X (formerly Twitter) for Cosmos Cleaner at twitter.com/CosmosCleaner")
+- **Facebook:** [facebook.com/CosmosCleaner](https://facebook.com/CosmosCleaner "Visit the Facebook for Cosmos Cleaner at facebook.com/CosmosCleaner")
+- **Instagram:** [instagram.com/CosmosCleaner](https://instagram.com/CosmosCleaner "Visit the Instagram for Cosmos Cleaner at instagram.com/CosmosCleaner")
+- **Threads:** [threads.net/CosmosCleaner](https://threads.net/@CosmosCleaner "Visit the Threads for Cosmos Cleaner at threads.net/CosmosCleaner")
+- **YouTube:** [youtube.com/@CosmosCleaner](https://youtube.com/@CosmosCleaner "Visit the YouTube for Cosmos Cleaner at youtube.com/@CosmosCleaner")
+- **Reddit:** [reddit.com/r/CosmosCleaner](https://reddit.com/r/CosmosCleaner "Visit the Reddit for Cosmos Cleaner at reddit.com/r/CosmosCleaner")
+- **Join the Discord:** [discord.gg/sncuXN5n2q](https://discord.gg/sncuXN5n2q "Join the Cosmos Cleaner Discord at discord.gg/sncuXN5n2q")
 
 ---
 
