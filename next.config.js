@@ -19,11 +19,6 @@ const nextConfig = {
         "permanent": true
       },
       {
-        "source": "/play",
-        "destination": "/",
-        "permanent": false
-      },
-      {
         "source": "/brand",
         "destination": "/press",
         "permanent": true
@@ -61,6 +56,36 @@ const nextConfig = {
       {
         "source": "/privacy-policy",
         "destination": "/privacy",
+        "permanent": true
+      },
+      {
+        "source": "/privacypolicywebsite",
+        "destination": "/privacy",
+        "permanent": true
+      },
+      {
+        "source": "/privacy-policy-website",
+        "destination": "/privacy",
+        "permanent": true
+      },
+      {
+        "source": "/privacypolicywiki",
+        "destination": "/privacy",
+        "permanent": true
+      },
+      {
+        "source": "/privacy-policy-wiki",
+        "destination": "/privacy",
+        "permanent": true
+      },
+      {
+        "source": "/privacypolicygame",
+        "destination": "/privacygame",
+        "permanent": true
+      },
+      {
+        "source": "/privacy-policy-game",
+        "destination": "/privacygame",
         "permanent": true
       },
       {

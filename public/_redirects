@@ -1,7 +1,6 @@
 /index / 
 /home /
 /homepage /
-/play /
 /brand /press
 /branding /press
 /presskit /press
@@ -10,6 +9,12 @@
 /media-kit /press
 /privacypolicy /privacy
 /privacy-policy /privacy
+/privacypolicywebsite /privacy
+/privacy-policy-website /privacy
+/privacypolicywiki /privacy
+/privacy-policy-wiki /privacy
+/privacypolicygame /privacygame
+/privacy-policy-game /privacygame
 /cookie /privacy
 /cookies /privacy
 /cookiepolicy /privacy

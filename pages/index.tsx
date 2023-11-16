@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import SiteHead from '../components/SiteHead';
 import PageFooter from '../components/PageFooter';
+import ButtonInternal from '../components/Buttons/ButtonInternal';
 import Image from 'next/image';
 
 const homePage: NextPage = () => {
@@ -25,9 +26,7 @@ const homePage: NextPage = () => {
         />
         <h1 className="mt-6 font-normal text-3xl max-sm:text-2xl">Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!</h1>
 
-        <p className="mt-24 mb-20 text-white bg-lime-500 py-3 px-5 font-bold text-lg rounded-md">
-          Coming Soon
-        </p>
+        <ButtonInternal className="mt-24 mb-20 text-2xl" href="play" title="Play Cosmos Cleaner">Play</ButtonInternal>
       </main>
 
       <PageFooter />

@@ -20,7 +20,7 @@ const tosGamePage: NextPage = () => {
             </div>
           </section>
 
-          <section id="termsofservice" className="max-w-[1000px] text-left">
+          <section id="termsofservicegame" className="max-w-[1000px] text-left">
             <h2 id="overview">Terms of Service Overview</h2>
             <p>These terms of service are only relevant to game of Cosmos Cleaner. For the terms of service related to the website and wiki of Cosmos Cleaner, visit <LinkInternal href="tos" title="CosmosCleaner.com/tos">CosmosCleaner.com/tos</LinkInternal>. The Cosmos Cleaner game is provided by Cosmos Cleaner which is operated by Derek Perry. This document is a legal agreement that sets out the terms and conditions (the “terms of service”) between you and Cosmos Cleaner, which you accept and agree to be bound by when you download, install, run, access, play, or otherwise use the game or other services which are listed below/linked to or which are otherwise referenced in these terms (individually a “Service”, and collectively the “Services”):</p>
             <ul className="pl-7 pb-2 flex flex-col list-disc">
