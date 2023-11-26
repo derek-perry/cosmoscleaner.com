@@ -37,7 +37,7 @@ const playPage: NextPage = () => {
             <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
             <p className="text-lg"><strong>File Type/Size:</strong> .exe (434MB) in .zip (243MB)</p>
             <p className="text-lg"><strong>How To Start:</strong> Download, unzip anywhere, enter folder, open .exe</p>
-            <ButtonExternal className="text-2xl my-4" href="https://drive.google.com/uc?export=download&id=1JIgKMd2H_OjprY0axV72qSk2FUU9GOIB" title="Download Cosmos Cleaner for Windows 10/11 (64-bit)">Download</ButtonExternal>
+            <ButtonExternal className="text-2xl my-4" href="https://dropbox.com/scl/fi/ujch6x2veyd2k6kwuu1u5/CosmosCleaner.zip?rlkey=j4l75xw633i82b6f21soribrm&dl=1" title="Download Cosmos Cleaner for Windows 10/11 (64-bit)">Download</ButtonExternal>
             <p className="text-sm">By downloading/playing, you agree to the game's <LinkInternal href="tosgame" title="CosmosCleaner.com/tosgame">terms of service</LinkInternal> and <LinkInternal href="privacygame" title="CosmosCleaner.com/privacygame">privacy policy</LinkInternal>.</p>
           </div>
           <div className="flex flex-col bg-cyan-100 rounded">
