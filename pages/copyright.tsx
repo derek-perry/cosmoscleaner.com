@@ -14,7 +14,9 @@ const copyrightPage: NextPage = () => {
         <article id="copyright">
           <section id="contentheader">
             <h1>Cosmos Cleaner Copyright & License Info</h1>
-            <ButtonInternal href="" title="Go to the home/index page of CosmosCleaner.com"><p>Go to Homepage</p></ButtonInternal>
+            <div className="flex flex-col gap-4 mt-4">
+              <ButtonInternal href="" title="Go to the home/index page of CosmosCleaner.com"><p>Go to Homepage</p></ButtonInternal>
+            </div>
           </section>
 
           <section id="copyrightlicenseoverview" className="max-w-[1000px] text-left">
