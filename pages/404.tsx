@@ -6,7 +6,7 @@ import ButtonInternal from '../components/Buttons/ButtonInternal';
 const error404Page: NextPage = () => {
   return (
     <div className="text-cyan-900 min-h-screen flex flex-col items-center justify-center">
-      <SiteHead title="Error 404: Content Not Found - Cosmos Cleaner" description="Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!" url="404" />
+      <SiteHead title="Error 404: Content Not Found - Cosmos Cleaner" description="Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!" url="404" image="" />
 
       <main className="max-md:pt-2 md:pt-9 pb-20 px-9 max-w-[1000px] w-full flex flex-1 flex-col text-center items-center justify-center">
         <h1 className="text-red-600">Error 404: Content Not Found</h1>

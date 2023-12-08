@@ -10,7 +10,7 @@ import Image from 'next/image';
 const copyrightPage: NextPage = () => {
   return (
     <div className="text-cyan-900 min-h-screen flex flex-col items-center justify-center">
-      <SiteHead title="Cosmos Cleaner Media Kit" description="This media kit features Cosmos Cleaner facts, a description, links, brand color information, and images like logos ready for use in your publications regarding Cosmos Cleaner." url="press" />
+      <SiteHead title="Cosmos Cleaner Media Kit" description="This media kit features Cosmos Cleaner facts, a description, links, brand color information, and images like logos ready for use in your publications regarding Cosmos Cleaner." url="press" image="" />
 
       <main className="max-md:pt-2 md:pt-9 pb-20 px-9 max-w-[1000px] w-full flex flex-1 flex-col items-center justify-center">
         <article id="kit">

@@ -8,7 +8,7 @@ import ButtonInternal from '../components/Buttons/ButtonInternal';
 const privacyGamePage: NextPage = () => {
   return (
     <div className="text-cyan-900 min-h-screen flex flex-col items-center justify-center">
-      <SiteHead title="Cosmos Cleaner Privacy Policy" description="Cosmos Cleaner respects your privacy and your personal data. - Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!" url="privacygame" />
+      <SiteHead title="Cosmos Cleaner Privacy Policy" description="Cosmos Cleaner respects your privacy and your personal data. - Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!" url="privacygame" image="" />
 
       <main className="max-md:pt-2 md:pt-9 pb-20 px-9 max-w-[1000px] w-full flex flex-1 flex-col items-center justify-center">
         <article id="privacygame">
