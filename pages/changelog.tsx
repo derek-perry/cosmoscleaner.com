@@ -43,6 +43,12 @@ const changelogPage: NextPage = () => {
                   <li>Adjusted weight display on HUD to disappear after 5 seconds</li>
                   <li>Added collected cargo to cargo bay</li>
                 </ul>
+              <h3 id="0034"><LinkExternal href="https://www.dropbox.com/scl/fi/09j4yxb4zwba25awqltwm/Cosmos-Cleaner-0.0.3.4w.zip?rlkey=3sg3a97zv5g7wzazu74nhb0g4&dl=1" title="Download v0.0.3.4w">v0.0.3.4w</LinkExternal></h3>
+                <p>Released Dec 28, 2023 at 17:00 EST</p>
+                <ul className="text-2xl list-disc pl-8">
+                  <li>Added cargo management in the form of dropping and selling picked up clutter</li>
+                  <li>Fixed modular clutter colors</li>
+                </ul>
           </section>
         </article>
       </main>
