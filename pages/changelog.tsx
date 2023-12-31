@@ -57,6 +57,13 @@ const changelogPage: NextPage = () => {
                   <li>Improved clutter buy/sell logic</li>
                   <li>Added Nickel clutter type</li>
                 </ul>
+              <h3 id="0038"><LinkExternal href="https://dropbox.com/scl/fi/0vuki3n9rlnqc3lgw2t5k/Cosmos-Cleaner-v0.0.3.8w.zip?rlkey=kxlmuekr7djdruesbznw5quab&dl=1" title="Download v0.0.3.8w">v0.0.3.8w</LinkExternal></h3>
+                <p>Released Dec 31, 2023 at 12:55 EST</p>
+                <ul className="text-2xl list-disc pl-8">
+                  <li>Added dropping clutter into space from the cargo bay</li>
+                  <li>Added buy value and sell value of clutter in cargo display</li>
+                  <li>Improved visual separation in clutter cargo display</li>
+                </ul>
           </section>
         </article>
       </main>
