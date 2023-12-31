@@ -43,12 +43,19 @@ const changelogPage: NextPage = () => {
                   <li>Adjusted weight display on HUD to disappear after 5 seconds</li>
                   <li>Added collected cargo to cargo bay</li>
                 </ul>
-              <h3 id="0035"><LinkExternal href="https://dropbox.com/scl/fi/8psehendksjg8sp0p3pzj/Cosmos-Cleaner-0.0.3.5w.zip?rlkey=nqdd5caqucif01mgtfw2p42ek&dl=1" title="Download v0.0.3.5w">v0.0.3.5w</LinkExternal></h3>
+              <h3 id="0035"><LinkExternal href="https://dropbox.com/scl/fi/8psehendksjg8sp0p3pzj/Cosmos-Cleaner-v0.0.3.5w.zip?rlkey=nqdd5caqucif01mgtfw2p42ek&dl=1" title="Download v0.0.3.5w">v0.0.3.5w</LinkExternal></h3>
                 <p>Released Dec 29, 2023 at 14:55 EST</p>
                 <ul className="text-2xl list-disc pl-8">
                   <li>Added cargo management in the form of dropping and selling picked up clutter</li>
                   <li>Fixed modular clutter colors</li>
                   <li>Fixed menu buttons</li>
+                </ul>
+              <h3 id="0037"><LinkExternal href="https://dropbox.com/scl/fi/hb4il2awfx8mgb9an44o3/Cosmos-Cleaner-v0.0.3.7w.zip?rlkey=6nb9pureygwu6eilkfps8e2fa&dl=1" title="Download v0.0.3.7w">v0.0.3.7w</LinkExternal></h3>
+                <p>Released Dec 30, 2023 at 22:55 EST</p>
+                <ul className="text-2xl list-disc pl-8">
+                  <li>Added clutter buying while at homebase</li>
+                  <li>Improved clutter buy/sell logic</li>
+                  <li>Added Nickel clutter type</li>
                 </ul>
           </section>
         </article>
