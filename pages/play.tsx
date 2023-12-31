@@ -33,7 +33,7 @@ const playPage: NextPage = () => {
             <p className="text-2xl mt-3"><em><strong>DISCLAIMER:</strong> This is Early Access! (Incomplete)</em></p>
             <p className="text-lg">Send feedback with issues, suggestions, etc...</p>
             <div className="h-px mt-3 bg-cyan-900" />
-            <p className="text-lg mt-3"><strong>Game Version:</strong> v0.0.3.8w</p>
+            <p className="text-lg mt-3"><strong>Game Version:</strong> v0.0.3.8w (See <LinkInternal href="changelog" title="CosmosCleaner.com/changelog">change log</LinkInternal>)</p>
             <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
             <p className="text-lg"><strong>File Type/Size:</strong> .exe (435MB) in .zip (255MB)</p>
             <p className="text-lg"><strong>How To Start:</strong> Download, unzip anywhere, enter folder, open .exe</p>
