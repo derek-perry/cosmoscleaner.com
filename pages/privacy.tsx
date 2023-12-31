@@ -13,7 +13,7 @@ const privacyPage: NextPage = () => {
       <main className="max-md:pt-2 md:pt-9 pb-20 px-9 max-w-[1000px] w-full flex flex-1 flex-col items-center justify-center">
         <article id="privacy">
           <section id="contentheader">
-            <h1>CosmosCleaner.com Privacy Policy</h1>
+            <h1><span className="max-md:break-all">CosmosCleaner.com</span> Privacy Policy</h1>
             <div className="flex flex-col gap-4 mt-4">
               <ButtonInternal href="" title="Go to the home/index page of CosmosCleaner.com"><p>Go to Homepage</p></ButtonInternal>
               <ButtonInternal href="privacygame" title="Go to the privacy policy for Cosmos Cleaner (the game)"><p>Game Privacy Policy</p></ButtonInternal>
