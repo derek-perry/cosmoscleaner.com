@@ -33,10 +33,10 @@ const playPage: NextPage = () => {
             <p className="text-2xl mt-3"><em><strong>DISCLAIMER:</strong> This is Early Access! (Incomplete)</em></p>
             <p className="text-lg">Send feedback with issues, suggestions, etc...</p>
             <div className="h-px mt-3 bg-cyan-900" />
-            <p className="text-lg mt-3"><strong>Game Version:</strong> v0.0.3.8w (See <LinkInternal href="changelog" title="CosmosCleaner.com/changelog">change log</LinkInternal>)</p>
+            <p className="text-lg mt-3"><strong>Game Version:</strong> v0.0.3.8w <em>(See <LinkInternal href="changelog" title="CosmosCleaner.com/changelog">change log</LinkInternal>)</em></p>
             <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
             <p className="text-lg"><strong>File Type/Size:</strong> .exe (435MB) in .zip (255MB)</p>
-            <p className="text-lg"><strong>How To Start:</strong> Download, unzip anywhere, enter folder, open .exe</p>
+            <p className="text-lg"><strong>How To Start:</strong> Download, unzip anywhere, open folder, open .exe</p>
             <ButtonExternal className="text-2xl my-4" href="https://dropbox.com/scl/fi/0vuki3n9rlnqc3lgw2t5k/Cosmos-Cleaner-v0.0.3.8w.zip?rlkey=kxlmuekr7djdruesbznw5quab&dl=1" title="Download Cosmos Cleaner for Windows 10/11 (64-bit)">Download</ButtonExternal>
             <p className="text-sm">By downloading/playing, you agree to the game's <LinkInternal href="tosgame" title="CosmosCleaner.com/tosgame">terms of service</LinkInternal> and <LinkInternal href="privacygame" title="CosmosCleaner.com/privacygame">privacy policy</LinkInternal>.</p>
           </div>
