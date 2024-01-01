@@ -6,6 +6,8 @@ import LinkExternal from '../components/Links/LinkExternal';
 import ButtonInternal from '../components/Buttons/ButtonInternal';
 
 const copyrightPage: NextPage = () => {
+  let currentYear: number = new Date().getFullYear();
+
   return (
     <div className="text-cyan-900 min-h-screen flex flex-col items-center justify-center">
       <SiteHead title="Cosmos Cleaner Copyright and Licenses" description="Cosmos Cleaner is copyright 2023. - Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!" url="copyright" image="" />
@@ -21,10 +23,10 @@ const copyrightPage: NextPage = () => {
 
           <section id="copyrightlicenseoverview" className="max-w-[1000px] text-left">
             <h2 id="copyrightoverview">Copyright Overview</h2>
-            <p>Cosmos Cleaner™ is copyright © 2023. Some rights are reserved. Keep reading to learn more.</p>
-            <p>The name "Cosmos Cleaner" is a trademark starting in 2023 under the sole ownership of <LinkExternal href="https://derek-perry.com" title="Go to Derek Perry's Website at derek-perry.com">Derek Perry</LinkExternal>.</p>
-            <p>The Cosmos Cleaner name, logo, logotype, and icon are trademarks starting in 2023 under the sole ownership of <LinkExternal href="https://derek-perry.com" title="Go to Derek Perry's Website at derek-perry.com">Derek Perry</LinkExternal> and the Cosmos Cleaner brand.</p>
-            <p>The Cosmos Cleaner's <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">game code on GitHub</LinkExternal> is copyprotected starting in 2023 under the sole ownership of <LinkExternal href="https://derek-perry.com" title="Go to Derek Perry's Website at derek-perry.com">Derek Perry</LinkExternal> and the Cosmos Cleaner brand.</p>
+            <p>Cosmos Cleaner™ is copyright © 2023-{currentYear}. Some rights are reserved. Keep reading to learn more.</p>
+            <p>The name "Cosmos Cleaner" is a trademark from 2023 to {currentYear} under the sole ownership of <LinkExternal href="https://derek-perry.com" title="Go to Derek Perry's Website at derek-perry.com">Derek Perry</LinkExternal>.</p>
+            <p>The Cosmos Cleaner name, logo, logotype, and icon are trademarks from 2023 to {currentYear} under the sole ownership of <LinkExternal href="https://derek-perry.com" title="Go to Derek Perry's Website at derek-perry.com">Derek Perry</LinkExternal> and the Cosmos Cleaner brand.</p>
+            <p>The Cosmos Cleaner's <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="View Cosmos Cleaner by Derek Perry on GitHub">game code on GitHub</LinkExternal> is copyprotected 2023-{currentYear} under the sole ownership of <LinkExternal href="https://derek-perry.com" title="Go to Derek Perry's Website at derek-perry.com">Derek Perry</LinkExternal> and the Cosmos Cleaner brand.</p>
 
             <h2 id="licenses">License Information</h2>
 
@@ -47,7 +49,7 @@ const copyrightPage: NextPage = () => {
 
             <h2 id="changes">Copyright and License Changes</h2>
             <p>Although most changes are likely to be minor, Cosmos Cleaner may change this copyright and license overview from time to time, and in Cosmos Cleaner’s sole discretion. Cosmos Cleaner encourages users to frequently check this page for any changes to this copyright and license overview. Your continued use of this site after any change in this copyright and license overview will constitute your acceptance of such change.</p>
-            <p><i>This copyright and license overview was last updated on November 16, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/cosmoscleaner.com" title="View the repository for CosmosCleaner.com at github.com/derek-perry/cosmoscleaner.com">website files on GitHub</LinkExternal> for version history.</i></p>
+            <p><i>This copyright and license overview was last updated on January 1, 2024. Visit the <LinkExternal href="https://github.com/derek-perry/cosmoscleaner.com" title="View the repository for CosmosCleaner.com at github.com/derek-perry/cosmoscleaner.com">website files on GitHub</LinkExternal> for version history.</i></p>
 
             <h2 id="contact-info">Contact Information</h2>
             <p>If you have any questions about this copyright and license overview, please contact Cosmos Cleaner via email at <LinkExternal className="max-sm:break-all" href="mailto:contact@cosmoscleaner.com" title="Contact Cosmos Cleaner via Email at Contact@CosmosCleaner.com">Contact@CosmosCleaner.com</LinkExternal></p>
