@@ -88,6 +88,21 @@ const changelogPage: NextPage = () => {
                   <li>Added buy value and sell value of clutter in cargo display</li>
                   <li>Improved visual separation in clutter cargo display</li>
                 </ul>
+              <h3 id="0043"><LinkExternal href="https://dropbox.com/scl/fi/2dj3l609qkq7n5or7g6zm/Cosmos-Cleaner-v0.0.4.3w.zip?rlkey=5akta6bo7427q30rk1i2jzczz&dl=1" title="Download v0.0.4.3w">v0.0.4.3w</LinkExternal></h3>
+                <p className="text-lg"><strong>Released:</strong> Mar 25, 2024 at 02:00 EDT</p>
+                <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
+                <p className="text-lg"><strong>File Type/Size:</strong> .exe (306MB) in .zip (202MB)</p>
+                <p><strong>Changes:</strong></p>
+                <ul className="text-2xl list-disc pl-8">
+                  <li>Replaced procedural clutter spawning with custom designed maps</li>
+                  <li>Replaced launch button with "Continue Cleaning" and "Wait for New Day" buttons</li>
+                  <li>Replaced temporary noise material instances</li>
+                  <li>Added icon-based buttons</li>
+                  <li>Fixed button text showing continue or back incorrectly on the settings menu</li>
+                  <li>Adjusted playfield borders to not allow anything outside the playfield</li>
+                  <li>Improved CET model slightly to better see what is needed for a final version</li>
+                  <li>Improved size and collision accuracy of the CET's tractor and collect areas</li>
+                </ul>
           </section>
         </article>
       </main>
