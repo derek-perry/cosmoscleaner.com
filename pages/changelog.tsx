@@ -103,7 +103,7 @@ const changelogPage: NextPage = () => {
                   <li>Improved CET model slightly to better see what is needed for a final version</li>
                   <li>Improved size and collision accuracy of the CET's tractor and collect areas</li>
                 </ul>
-              <h3 id="0044"><LinkExternal href="https://dropbox.com/scl/fi/2ecoy2rk9m8fx9xdrd3wr/Cosmos-Cleaner-v0.0.4.4w.zip?rlkey=7mc1281uvnurxa5xxuywphf4e&dl=1" title="Download v0.0.4.4w">v0.0.4.4w</LinkExternal></h3>
+              <h3 id="0044">v0.0.4.4w</h3>
                 <p className="text-lg"><strong>Released:</strong> Mar 26, 2024 at 21:00 EDT</p>
                 <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
                 <p className="text-lg"><strong>File Type/Size:</strong> .exe (306MB) in .zip (202MB)</p>
@@ -112,6 +112,16 @@ const changelogPage: NextPage = () => {
                   <li>Changed settings menu layout from one-page to tab based menus for cleaner settings management</li>
                   <li>Added MouseMovement mode</li>
                   <li>Improved mobile support for all menus</li>
+                </ul>
+              <h3 id="0045"><LinkExternal href="https://dropbox.com/scl/fi/1bi4fb9x4s2jlfr7s8rkj/Cosmos-Cleaner-v0.0.4.5w.zip?rlkey=gyvfv61mgouf116xh6ly7kcd3&dl=1" title="Download v0.0.4.5w">v0.0.4.5w</LinkExternal></h3>
+                <p className="text-lg"><strong>Released:</strong> Mar 27, 2024 at 02:34 EDT</p>
+                <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
+                <p className="text-lg"><strong>File Type/Size:</strong> .exe (306MB) in .zip (207MB)</p>
+                <p><strong>Changes:</strong></p>
+                <ul className="text-2xl list-disc pl-8">
+                  <li>Improved HUD layout with a background and better sizing and spacing</li>
+                  <li>Added X, Y, and Distance displays to HUD</li>
+                  <li>Added day counting and displays</li>
                 </ul>
           </section>
         </article>
