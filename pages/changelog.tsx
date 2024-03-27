@@ -29,7 +29,7 @@ const changelogPage: NextPage = () => {
             <h2 id="windows">Windows Releases</h2>
               <p><strong><LinkInternal href="play" title="CosmosCleaner.com/play">Play Latest Version</LinkInternal></strong></p>
               <p className="text-lg"><strong>How To Start/Play Windows Versions:</strong> Download .zip <em>(click version number)</em>, unzip anywhere, open unzipped folder, open .exe, and play!</p>
-              <h3 id="001"><LinkExternal href="https://dropbox.com/scl/fi/ujch6x2veyd2k6kwuu1u5/Cosmos-Cleaner-v0.0.1w.zip?rlkey=j4l75xw633i82b6f21soribrm&dl=1" title="Download v0.0.1w">v0.0.1w</LinkExternal></h3>
+              <h3 id="001">v0.0.1w</h3>
                 <p className="text-lg"><strong>Released:</strong> Nov 16, 2023 at 02:01 EST</p>
                 <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
                 <p className="text-lg"><strong>File Type/Size:</strong> .exe (434MB) in .zip (243MB)</p>
@@ -37,7 +37,7 @@ const changelogPage: NextPage = () => {
                 <ul className="text-2xl list-disc pl-8">
                   <li>Released as Early Access</li>
                 </ul>
-              <h3 id="002"><LinkExternal href="https://dropbox.com/scl/fi/ptwz321thamgkd9ezz4p2/Cosmos-Cleaner-v0.0.2w.zip?rlkey=cmc2psukypp8j0zk32itkicqr&dl=1" title="Download v0.0.2w">v0.0.2w</LinkExternal></h3>
+              <h3 id="002">v0.0.2w</h3>
                 <p className="text-lg"><strong>Released:</strong> Nov 26, 2023 at 22:57 EST</p>
                 <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
                 <p className="text-lg"><strong>File Type/Size:</strong> .exe (434MB) in .zip (255MB)</p>
@@ -47,7 +47,7 @@ const changelogPage: NextPage = () => {
                   <li>Removed cargo display from HUD to display in a cargo menu instead</li>
                   <li>Moved weight display from right to left side of HUD</li>
                 </ul>
-              <h3 id="0033"><LinkExternal href="https://dropbox.com/scl/fi/afb7hjtusek94edwchq6w/Cosmos-Cleaner-v0.0.3.3w.zip?rlkey=594ozzqjhucbxxak25snlpmi5&dl=1" title="Download v0.0.3.3w">v0.0.3.3w</LinkExternal></h3>
+              <h3 id="0033">v0.0.3.3w</h3>
                 <p className="text-lg"><strong>Released:</strong> Dec 23, 2023 at 22:55 EST</p>
                 <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
                 <p className="text-lg"><strong>File Type/Size:</strong> .exe (438MB) in .zip (250MB)</p>
@@ -58,7 +58,7 @@ const changelogPage: NextPage = () => {
                   <li>Adjusted weight display on HUD to disappear after 5 seconds</li>
                   <li>Added collected cargo to cargo bay</li>
                 </ul>
-              <h3 id="0035"><LinkExternal href="https://dropbox.com/scl/fi/8psehendksjg8sp0p3pzj/Cosmos-Cleaner-v0.0.3.5w.zip?rlkey=nqdd5caqucif01mgtfw2p42ek&dl=1" title="Download v0.0.3.5w">v0.0.3.5w</LinkExternal></h3>
+              <h3 id="0035">v0.0.3.5w</h3>
                 <p className="text-lg"><strong>Released:</strong> Dec 29, 2023 at 14:55 EST</p>
                 <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
                 <p className="text-lg"><strong>File Type/Size:</strong> .exe (435MB) in .zip (250MB)</p>
@@ -68,7 +68,7 @@ const changelogPage: NextPage = () => {
                   <li>Fixed modular clutter colors</li>
                   <li>Fixed menu buttons</li>
                 </ul>
-              <h3 id="0037"><LinkExternal href="https://dropbox.com/scl/fi/hb4il2awfx8mgb9an44o3/Cosmos-Cleaner-v0.0.3.7w.zip?rlkey=6nb9pureygwu6eilkfps8e2fa&dl=1" title="Download v0.0.3.7w">v0.0.3.7w</LinkExternal></h3>
+              <h3 id="0037">v0.0.3.7w</h3>
                 <p className="text-lg"><strong>Released:</strong> Dec 30, 2023 at 22:55 EST</p>
                 <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
                 <p className="text-lg"><strong>File Type/Size:</strong> .exe (435MB) in .zip (250MB)</p>
@@ -78,7 +78,7 @@ const changelogPage: NextPage = () => {
                   <li>Improved clutter buy/sell logic</li>
                   <li>Added Nickel clutter type</li>
                 </ul>
-              <h3 id="0038"><LinkExternal href="https://dropbox.com/scl/fi/0vuki3n9rlnqc3lgw2t5k/Cosmos-Cleaner-v0.0.3.8w.zip?rlkey=kxlmuekr7djdruesbznw5quab&dl=1" title="Download v0.0.3.8w">v0.0.3.8w</LinkExternal></h3>
+              <h3 id="0038">v0.0.3.8w</h3>
                 <p className="text-lg"><strong>Released:</strong> Dec 31, 2023 at 12:55 EST</p>
                 <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
                 <p className="text-lg"><strong>File Type/Size:</strong> .exe (435MB) in .zip (255MB)</p>
@@ -88,7 +88,7 @@ const changelogPage: NextPage = () => {
                   <li>Added buy value and sell value of clutter in cargo display</li>
                   <li>Improved visual separation in clutter cargo display</li>
                 </ul>
-              <h3 id="0043"><LinkExternal href="https://dropbox.com/scl/fi/2dj3l609qkq7n5or7g6zm/Cosmos-Cleaner-v0.0.4.3w.zip?rlkey=5akta6bo7427q30rk1i2jzczz&dl=1" title="Download v0.0.4.3w">v0.0.4.3w</LinkExternal></h3>
+              <h3 id="0043">v0.0.4.3w</h3>
                 <p className="text-lg"><strong>Released:</strong> Mar 25, 2024 at 02:00 EDT</p>
                 <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
                 <p className="text-lg"><strong>File Type/Size:</strong> .exe (306MB) in .zip (202MB)</p>
@@ -102,6 +102,16 @@ const changelogPage: NextPage = () => {
                   <li>Adjusted playfield borders to not allow anything outside the playfield</li>
                   <li>Improved CET model slightly to better see what is needed for a final version</li>
                   <li>Improved size and collision accuracy of the CET's tractor and collect areas</li>
+                </ul>
+              <h3 id="0044"><LinkExternal href="https://dropbox.com/scl/fi/2ecoy2rk9m8fx9xdrd3wr/Cosmos-Cleaner-v0.0.4.4w.zip?rlkey=7mc1281uvnurxa5xxuywphf4e&dl=1" title="Download v0.0.4.4w">v0.0.4.4w</LinkExternal></h3>
+                <p className="text-lg"><strong>Released:</strong> Mar 26, 2024 at 21:00 EDT</p>
+                <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
+                <p className="text-lg"><strong>File Type/Size:</strong> .exe (306MB) in .zip (202MB)</p>
+                <p><strong>Changes:</strong></p>
+                <ul className="text-2xl list-disc pl-8">
+                  <li>Changed settings menu layout from one-page to tab based menus for cleaner settings management</li>
+                  <li>Added MouseMovement mode</li>
+                  <li>Improved mobile support for all menus</li>
                 </ul>
           </section>
         </article>
