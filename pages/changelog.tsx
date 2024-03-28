@@ -113,7 +113,7 @@ const changelogPage: NextPage = () => {
                   <li>Added MouseMovement mode</li>
                   <li>Improved mobile support for all menus</li>
                 </ul>
-              <h3 id="0045"><LinkExternal href="https://dropbox.com/scl/fi/1bi4fb9x4s2jlfr7s8rkj/Cosmos-Cleaner-v0.0.4.5w.zip?rlkey=gyvfv61mgouf116xh6ly7kcd3&dl=1" title="Download v0.0.4.5w">v0.0.4.5w</LinkExternal></h3>
+              <h3 id="0045">v0.0.4.5w</h3>
                 <p className="text-lg"><strong>Released:</strong> Mar 27, 2024 at 02:34 EDT</p>
                 <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
                 <p className="text-lg"><strong>File Type/Size:</strong> .exe (306MB) in .zip (207MB)</p>
@@ -122,6 +122,19 @@ const changelogPage: NextPage = () => {
                   <li>Improved HUD layout with a background and better sizing and spacing</li>
                   <li>Added X, Y, and Distance displays to HUD</li>
                   <li>Added day counting and displays</li>
+                </ul>
+              <h3 id="0046"><LinkExternal href="https://dropbox.com/scl/fi/aldufg33u34xo0mb8wxav/Cosmos-Cleaner-v0.0.4.6w.zip?rlkey=jrv8vajqzw0jhrhqsr1hgcrmn&dl=1" title="Download v0.0.4.6w">v0.0.4.6w</LinkExternal></h3>
+                <p className="text-lg"><strong>Released:</strong> Mar 28, 2024 at 02:35 EDT</p>
+                <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
+                <p className="text-lg"><strong>File Type/Size:</strong> .exe (306MB) in .zip (207MB)</p>
+                <p><strong>Changes:</strong></p>
+                <ul className="text-2xl list-disc pl-8">
+                  <li>Added new music (menu and in-game) from AGMusic on MelodyLoops</li>
+                  <li>Added shuffling between multiple in-game music tracks</li>
+                  <li>Changed home menu to be tabbed like the settings menu</li>
+                  <li>Changed dashboard to be only a cargo bay</li>
+                  <li>Fixed MouseMovement mode reliability issue</li>
+                  <li>Added more icons to more buttons</li>
                 </ul>
           </section>
         </article>
