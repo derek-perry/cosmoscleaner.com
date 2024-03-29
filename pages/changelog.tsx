@@ -123,10 +123,10 @@ const changelogPage: NextPage = () => {
                   <li>Added X, Y, and Distance displays to HUD</li>
                   <li>Added day counting and displays</li>
                 </ul>
-              <h3 id="0046"><LinkExternal href="https://dropbox.com/scl/fi/aldufg33u34xo0mb8wxav/Cosmos-Cleaner-v0.0.4.6w.zip?rlkey=jrv8vajqzw0jhrhqsr1hgcrmn&dl=1" title="Download v0.0.4.6w">v0.0.4.6w</LinkExternal></h3>
+              <h3 id="0046">v0.0.4.6w</h3>
                 <p className="text-lg"><strong>Released:</strong> Mar 28, 2024 at 02:35 EDT</p>
                 <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
-                <p className="text-lg"><strong>File Type/Size:</strong> .exe (306MB) in .zip (207MB)</p>
+                <p className="text-lg"><strong>File Type/Size:</strong> .exe (329MB) in .zip (225MB)</p>
                 <p><strong>Changes:</strong></p>
                 <ul className="text-2xl list-disc pl-8">
                   <li>Added new music (menu and in-game) from AGMusic on MelodyLoops</li>
@@ -135,6 +135,14 @@ const changelogPage: NextPage = () => {
                   <li>Changed dashboard to be only a cargo bay</li>
                   <li>Fixed MouseMovement mode reliability issue</li>
                   <li>Added more icons to more buttons</li>
+                </ul>
+              <h3 id="010"><LinkExternal href="https://dropbox.com/scl/fi/dsth73rkj7p42wep63k7z/Cosmos-Cleaner-v0.1.0w.zip?rlkey=b45da7y1u0881ge4tt8n986p1&dl=1" title="Download v0.1.0w">v0.1.0w</LinkExternal></h3>
+                <p className="text-lg"><strong>Released:</strong> Mar 29, 2024 at 01:05 EDT</p>
+                <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
+                <p className="text-lg"><strong>File Type/Size:</strong> .exe (329MB) in .zip (225MB)</p>
+                <p><strong>Changes:</strong></p>
+                <ul className="text-2xl list-disc pl-8">
+                  <li>Cleaned full game loop by ensuring death removes clutter, finishing upgrading/refuel, and running initial balancing</li>
                 </ul>
           </section>
         </article>
