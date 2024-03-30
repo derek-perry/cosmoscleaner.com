@@ -136,13 +136,25 @@ const changelogPage: NextPage = () => {
                   <li>Fixed MouseMovement mode reliability issue</li>
                   <li>Added more icons to more buttons</li>
                 </ul>
-              <h3 id="010"><LinkExternal href="https://dropbox.com/scl/fi/dsth73rkj7p42wep63k7z/Cosmos-Cleaner-v0.1.0w.zip?rlkey=b45da7y1u0881ge4tt8n986p1&dl=1" title="Download v0.1.0w">v0.1.0w</LinkExternal></h3>
+              <h3 id="010">v0.1.0w</h3>
                 <p className="text-lg"><strong>Released:</strong> Mar 29, 2024 at 01:05 EDT</p>
                 <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
                 <p className="text-lg"><strong>File Type/Size:</strong> .exe (329MB) in .zip (225MB)</p>
                 <p><strong>Changes:</strong></p>
                 <ul className="text-2xl list-disc pl-8">
                   <li>Cleaned full game loop by ensuring death removes clutter, finishing upgrading/refuel, and running initial balancing</li>
+                </ul>
+              <h3 id="011"><LinkExternal href="https://dropbox.com/scl/fi/zbl6l2ikxm324q4qyn88z/Cosmos-Cleaner-v0.1.1w.zip?rlkey=ujeph8z337t98363lx3v3ycnl&dl=1" title="Download v0.1.1w">v0.1.1w</LinkExternal></h3>
+                <p className="text-lg"><strong>Released:</strong> Mar 29, 2024 at 21:28 EDT</p>
+                <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
+                <p className="text-lg"><strong>File Type/Size:</strong> .exe (330MB) in .zip (230MB)</p>
+                <p><strong>Changes:</strong></p>
+                <ul className="text-2xl list-disc pl-8">
+                  <li>Added more sounds including thrust, death, new click/hover, etc</li>
+                  <li>Adjust music and SFX volume levels</li>
+                  <li>Improve in-game color and lighting consistency</li>
+                  <li>Added particles upon collecting clutter</li>
+                  <li>Improve CET model</li>
                 </ul>
           </section>
         </article>
