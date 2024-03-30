@@ -33,11 +33,11 @@ const playPage: NextPage = () => {
             <p className="text-2xl mt-3"><em><strong>DISCLAIMER:</strong> This is Early Access! (Incomplete)</em></p>
             <p className="text-lg">Send feedback with issues, suggestions, etc...</p>
             <div className="h-px mt-3 bg-cyan-900" />
-            <p className="text-lg mt-3"><strong>Game Version:</strong> v0.1.1w <em>(See <LinkInternal href="changelog" title="CosmosCleaner.com/changelog">change log</LinkInternal>)</em></p>
+            <p className="text-lg mt-3"><strong>Game Version:</strong> v0.1.2w <em>(See <LinkInternal href="changelog" title="CosmosCleaner.com/changelog">change log</LinkInternal>)</em></p>
             <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
             <p className="text-lg"><strong>File Type/Size:</strong> .exe (330MB) in .zip (230MB)</p>
             <p className="text-lg"><strong>How To Start:</strong> Download, unzip anywhere, open folder, open .exe</p>
-            <ButtonExternal className="text-2xl my-4" href="https://dropbox.com/scl/fi/zbl6l2ikxm324q4qyn88z/Cosmos-Cleaner-v0.1.1w.zip?rlkey=ujeph8z337t98363lx3v3ycnl&dl=1" title="Download Cosmos Cleaner for Windows 10/11 (64-bit)">Download</ButtonExternal>
+            <ButtonExternal className="text-2xl my-4" href="https://dropbox.com/scl/fi/ayl4md7bwjho2t1s7unjy/Cosmos-Cleaner-v0.1.2w.zip?rlkey=oegn0uv1psf486rctir6rhhmd&dl=1" title="Download Cosmos Cleaner for Windows 10/11 (64-bit)">Download</ButtonExternal>
             <p className="text-sm">By downloading/playing, you agree to the game's <LinkInternal href="tosgame" title="CosmosCleaner.com/tosgame">terms of service</LinkInternal> and <LinkInternal href="privacygame" title="CosmosCleaner.com/privacygame">privacy policy</LinkInternal>.</p>
           </div>
           <div className="flex flex-col bg-cyan-100 rounded">
