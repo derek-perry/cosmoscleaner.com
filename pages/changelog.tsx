@@ -29,7 +29,17 @@ const changelogPage: NextPage = () => {
             <h2 id="windows">Windows Releases</h2>
               <p><strong><LinkInternal href="play" title="CosmosCleaner.com/play">Play Latest Version</LinkInternal></strong></p>
               <p className="text-lg"><strong>How To Start/Play Windows Versions:</strong> Download .zip <em>(click version number)</em>, unzip anywhere, open unzipped folder, open .exe, and play!</p>
-              <h3 id="012"><LinkExternal href="https://dropbox.com/scl/fi/ayl4md7bwjho2t1s7unjy/Cosmos-Cleaner-v0.1.2w.zip?rlkey=oegn0uv1psf486rctir6rhhmd&dl=1" title="Download v0.1.2w">v0.1.2w</LinkExternal></h3>
+              <h3 id="020"><LinkExternal href="https://dropbox.com/scl/fi/w9xhhwk1o62bht79rpbjf/Cosmos-Cleaner-v0.2.0w.zip?rlkey=4qnr8awiznop11aew26u66j46&dl=1" title="Download v0.2.0w">v0.2.0w</LinkExternal></h3>
+                <p className="text-lg"><strong>Released:</strong> Mar 31, 2024 at 04:34 EDT</p>
+                <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
+                <p className="text-lg"><strong>File Type/Size:</strong> .exe (331MB) in .zip (232MB)</p>
+                <p><strong>Changes:</strong></p>
+                <ul className="text-2xl list-disc pl-8">
+                  <li>Added initial level setup with every clutter type spawning at certain frequencies and at random locations across the play area</li>
+                  <li>Raised volume levels of all sounds and music</li>
+                  <li>Added live background behind main menu</li>
+                </ul>
+              <h3 id="012">v0.1.2w</h3>
                 <p className="text-lg"><strong>Released:</strong> Mar 30, 2024 at 16:23 EDT</p>
                 <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
                 <p className="text-lg"><strong>File Type/Size:</strong> .exe (330MB) in .zip (230MB)</p>
