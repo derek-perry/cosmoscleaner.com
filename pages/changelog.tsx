@@ -29,7 +29,16 @@ const changelogPage: NextPage = () => {
             <h2 id="windows">Windows Releases</h2>
               <p><strong><LinkInternal href="play" title="CosmosCleaner.com/play">Play Latest Version</LinkInternal></strong></p>
               <p className="text-lg"><strong>How To Start/Play Windows Versions:</strong> Download .zip <em>(click version number)</em>, unzip anywhere, open unzipped folder, open .exe, and play!</p>
-              <h3 id="020"><LinkExternal href="https://dropbox.com/scl/fi/w9xhhwk1o62bht79rpbjf/Cosmos-Cleaner-v0.2.0w.zip?rlkey=4qnr8awiznop11aew26u66j46&dl=1" title="Download v0.2.0w">v0.2.0w</LinkExternal></h3>
+              <h3 id="021"><LinkExternal href="https://dropbox.com/scl/fi/cyp6mv5926l4udb0vbxxi/Cosmos-Cleaner-v0.2.1w.zip?rlkey=fqo50fh9kzhrttfr3socgxovm&dl=0" title="Download v0.2.1w">v0.2.1w</LinkExternal></h3>
+                <p className="text-lg"><strong>Released:</strong> Mar 31, 2024 at 16:56 EDT</p>
+                <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
+                <p className="text-lg"><strong>File Type/Size:</strong> .exe (331MB) in .zip (232MB)</p>
+                <p><strong>Changes:</strong></p>
+                <ul className="text-2xl list-disc pl-8">
+                  <li>Adjusted home and settings menu sizing and spacing to fit better on smaller/mobile display</li>
+                  <li>Removed quit button on mobile platforms where it doesn't make sense</li>
+                </ul>
+              <h3 id="020">v0.2.0w</h3>
                 <p className="text-lg"><strong>Released:</strong> Mar 31, 2024 at 04:34 EDT</p>
                 <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
                 <p className="text-lg"><strong>File Type/Size:</strong> .exe (331MB) in .zip (232MB)</p>
