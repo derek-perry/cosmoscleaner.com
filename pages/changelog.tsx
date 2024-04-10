@@ -21,7 +21,7 @@ const changelogPage: NextPage = () => {
 
           <section id="changelogs" className="max-w-[1000px] text-left">
             <h2 id="changelogoverview">Change Log Overview</h2>
-            <p>Cosmos Cleaner uses a version release system with separate versions for each public change/release on each platform. The format follows v[X].[Y].[Z][PLATFORM] where [X] is a major release, [Y] is a minor release, [Z] is an individual change, and [PLATFORM] is a letter which represents the relevant platform.</p>
+            <p>Cosmos Cleaner uses a version release system with separate versions for each public change/release on each platform. The format follows v[X].[Y].[Z][PLATFORM] where [X] is a major release, [Y] is a minor release, [Z] is a hotfix or an individual change, and [PLATFORM] is a letter which represents the relevant platform.</p>
             <p className="my-10">By downloading/playing these versions of Cosmos Cleaner, you agree to the game's <LinkInternal href="tosgame" title="CosmosCleaner.com/tosgame">terms of service</LinkInternal> and <LinkInternal href="privacygame" title="CosmosCleaner.com/privacygame">privacy policy</LinkInternal>.</p>
 
             <hr />
@@ -29,6 +29,25 @@ const changelogPage: NextPage = () => {
             <h2 id="windows">Windows Releases</h2>
               <p><strong><LinkInternal href="play" title="CosmosCleaner.com/play">Play Latest Version</LinkInternal></strong></p>
               <p className="text-lg"><strong>How To Start/Play Windows Versions:</strong> Download .zip <em>(click version number)</em>, unzip anywhere, open unzipped folder, open .exe, and play!</p>
+              <h3 id="040"><LinkExternal href="https://dropbox.com/scl/fi/rtq73a5ksf61fz746w9jx/Cosmos-Cleaner-v0.4.0w.zip?rlkey=gw150dzpc0v9wyq02nx3j364x&dl=1" title="Download v0.4.0w">v0.4.0w</LinkExternal></h3>
+                <p className="text-lg"><strong>Released:</strong> Apr 10, 2024 at 01:40 EDT</p>
+                <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
+                <p className="text-lg"><strong>File Type/Size:</strong> .exe (331MB) in .zip (232MB)</p>
+                <p><strong>Changes:</strong></p>
+                <ul className="text-2xl list-disc pl-8">
+                  <li>Changed max upgrade level from 3 to 999,999,999</li>
+                  <li>Fixed death count inaccuracy on death pop-up</li>
+                </ul>
+              <h3 id="030">v0.3.0w</h3>
+                <p className="text-lg"><strong>Released:</strong> Apr 9, 2024 at 12:53 EDT</p>
+                <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
+                <p className="text-lg"><strong>File Type/Size:</strong> .exe (331MB) in .zip (232MB)</p>
+                <p><strong>Changes:</strong></p>
+                <ul className="text-2xl list-disc pl-8">
+                  <li>Add loading indicator</li>
+                  <li>Remove background elements from splash to help splash load quicker</li>
+                  <li>Changed music to play after splash ends</li>
+                </ul>
               <h3 id="021"><LinkExternal href="https://dropbox.com/scl/fi/cyp6mv5926l4udb0vbxxi/Cosmos-Cleaner-v0.2.1w.zip?rlkey=fqo50fh9kzhrttfr3socgxovm&dl=0" title="Download v0.2.1w">v0.2.1w</LinkExternal></h3>
                 <p className="text-lg"><strong>Released:</strong> Mar 31, 2024 at 16:56 EDT</p>
                 <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
