@@ -48,7 +48,7 @@ const changelogPage: NextPage = () => {
                   <li>Remove background elements from splash to help splash load quicker</li>
                   <li>Changed music to play after splash ends</li>
                 </ul>
-              <h3 id="021"><LinkExternal href="https://dropbox.com/scl/fi/cyp6mv5926l4udb0vbxxi/Cosmos-Cleaner-v0.2.1w.zip?rlkey=fqo50fh9kzhrttfr3socgxovm&dl=0" title="Download v0.2.1w">v0.2.1w</LinkExternal></h3>
+              <h3 id="021">v0.2.1w</h3>
                 <p className="text-lg"><strong>Released:</strong> Mar 31, 2024 at 16:56 EDT</p>
                 <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
                 <p className="text-lg"><strong>File Type/Size:</strong> .exe (331MB) in .zip (232MB)</p>
