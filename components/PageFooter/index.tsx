@@ -12,7 +12,7 @@ const PageFooter = (): JSX.Element => {
           <LinkInternal
               className="max-md:basis-full m-auto flex text-center items-center justify-center" href="" title="Cosmos Cleaner">
             <Image
-              src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_ColorOnDark-Padded.svg' || './CosmosCleaner_Logotype_ColorOnDark-Padded.svg'}
+              src='/CosmosCleaner_Logotype_ColorOnDark-Padded.svg'
               width={300}
               height={300}
               alt="Cosmos Cleaner"
@@ -32,7 +32,7 @@ const PageFooter = (): JSX.Element => {
         <div className="flex flex-wrap gap-5 text-center items-center justify-center">
           <LinkExternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="https://x.com/CosmosCleaner" title="CosmosCleaner on X (formerly Twitter)">
             <Image
-              src={process.env.NEXT_PUBLIC_SITE_URL + '/x.svg' || './x.svg'}
+              src='/x.svg'
               width={42}
               height={42}
               alt="X"
@@ -40,7 +40,7 @@ const PageFooter = (): JSX.Element => {
           </LinkExternal>
           <LinkExternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="https://instagram.com/CosmosCleaner" title="CosmosCleaner on Instagram">
             <Image
-              src={process.env.NEXT_PUBLIC_SITE_URL + '/instagram.svg' || './instagram.svg'}
+              src='/instagram.svg'
               width={42}
               height={42}
               alt="Instagram"
@@ -48,7 +48,7 @@ const PageFooter = (): JSX.Element => {
           </LinkExternal>
           <LinkExternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="https://threads.net/@CosmosCleaner" title="CosmosCleaner on Threads">
             <Image
-              src={process.env.NEXT_PUBLIC_SITE_URL + '/threads.svg' || './threads.svg'}
+              src='/threads.svg'
               width={42}
               height={42}
               alt="Threads"
@@ -56,7 +56,7 @@ const PageFooter = (): JSX.Element => {
           </LinkExternal>
           <LinkExternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="https://facebook.com/CosmosCleaner" title="CosmosCleaner on Facebook">
             <Image
-              src={process.env.NEXT_PUBLIC_SITE_URL + '/facebook.svg' || './facebook.svg'}
+              src='./facebook.svg'
               width={42}
               height={42}
               alt="Facebook"
@@ -64,7 +64,7 @@ const PageFooter = (): JSX.Element => {
           </LinkExternal>
           <LinkExternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="https://youtube.com/@CosmosCleaner" title="CosmosCleaner on YouTube">
             <Image
-              src={process.env.NEXT_PUBLIC_SITE_URL + '/youtube.svg' || './youtube.svg'}
+              src='/youtube.svg'
               width={42}
               height={42}
               alt="YouTube"
@@ -72,7 +72,7 @@ const PageFooter = (): JSX.Element => {
           </LinkExternal>
           <LinkExternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="https://reddit.com/r/CosmosCleaner" title="CosmosCleaner on Reddit">
             <Image
-              src={process.env.NEXT_PUBLIC_SITE_URL + '/reddit.svg' || './reddit.svg'}
+              src='/reddit.svg'
               width={42}
               height={42}
               alt="Reddit"
@@ -80,7 +80,7 @@ const PageFooter = (): JSX.Element => {
           </LinkExternal>
           <LinkExternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="https://discord.gg/sncuXN5n2q" title="Join the Official Cosmos Cleaner Discord">
             <Image
-              src={process.env.NEXT_PUBLIC_SITE_URL + '/discord.svg' || './discord.svg'}
+              src='/discord.svg'
               width={42}
               height={42}
               alt="Discord"
@@ -89,7 +89,7 @@ const PageFooter = (): JSX.Element => {
         </div>
         <div className="flex flex-row flex-wrap gap-x-8 gap-y-2 text-center items-center justify-center">
           <p className="text-lg">Copyright © 2023-{currentYear} <LinkInternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500 no-underline" href="" title="Cosmos Cleaner">Cosmos Cleaner</LinkInternal>™</p>
-          <p className="text-lg">Game by <LinkExternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="https://derek-perry.com" title="Go to Derek Perry's Website at derek-perry.com">Derek Perry</LinkExternal> <Image className="pl-2 inline" src={process.env.NEXT_PUBLIC_SITE_URL + '/dp.svg' || './dp.svg'} alt="" width={33} height={33} /></p>
+          <p className="text-lg">Game by <LinkExternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="https://derek-perry.com" title="Go to Derek Perry's Website at derek-perry.com">Derek Perry</LinkExternal> <Image className="pl-2 inline" src='/dp.svg' alt="" width={33} height={33} /></p>
         </div>
       </div>
     </footer>

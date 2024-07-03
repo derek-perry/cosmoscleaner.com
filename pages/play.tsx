@@ -12,14 +12,14 @@ const playPage: NextPage = () => {
 
       <main className="py-20 px-9 max-w-[1250px] w-full flex flex-1 flex-col text-center items-center justify-center">
         <Image
-          src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_ColorOnLight-Padded-Horizontal.svg' || './CosmosCleaner_Logotype_ColorOnLight-Padded-Horizontal.svg'}
+          src='/CosmosCleaner_Logotype_ColorOnLight-Padded-Horizontal.svg'
           width={1000}
           height={500}
           alt="Cosmos Cleaner"
           className="max-md:hidden"
         />
         <Image
-          src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_ColorOnLight-Padded.svg' || './CosmosCleaner_Logotype_ColorOnLight-Padded.svg'}
+          src='/CosmosCleaner_Logotype_ColorOnLight-Padded.svg'
           width={500}
           height={500}
           alt="Cosmos Cleaner"

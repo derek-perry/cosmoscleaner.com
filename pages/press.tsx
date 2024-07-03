@@ -72,14 +72,14 @@ const pressPage: NextPage = () => {
               <div className="flex flex-col gap-4">
                 <div className="flex flex-wrap gap-4">
                   <Image
-                    src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_ColorOnLight-Padded.svg' || './CosmosCleaner_Logotype_ColorOnLight-Padded.svg'}
+                    src='/CosmosCleaner_Logotype_ColorOnLight-Padded.svg'
                     width={250}
                     height={250}
                     alt="Cosmos Cleaner Logotype (Color on Light Backgrounds, Padded, Vertical Layout)"
                     className="flex max-sm:max-w-[250px] p-2"
                   />
                   <Image
-                    src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_ColorOnDark-Padded.svg' || './CosmosCleaner_Logotype_ColorOnDark-Padded.svg'}
+                    src='/CosmosCleaner_Logotype_ColorOnDark-Padded.svg'
                     width={250}
                     height={250}
                     alt="Cosmos Cleaner Logotype (Color on Dark Backgrounds, Padded, Vertical Layout)"
@@ -88,14 +88,14 @@ const pressPage: NextPage = () => {
                 </div>
                 <div className="flex flex-wrap gap-3.5">
                   <Image
-                    src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_Black-Padded.svg' || './CosmosCleaner_Logotype_Black-Padded.svg'}
+                    src='/CosmosCleaner_Logotype_Black-Padded.svg'
                     width={250}
                     height={250}
                     alt="Cosmos Cleaner Logotype (Black, Padded, Vertical Layout)"
                     className="flex max-sm:max-w-[250px] p-2"
                   />
                   <Image
-                    src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_White-Padded.svg' || './CosmosCleaner_Logotype_White-Padded.svg'}
+                    src='/CosmosCleaner_Logotype_White-Padded.svg'
                     width={250}
                     height={250}
                     alt="Cosmos Cleaner Logotype (White, Padded, Vertical Layout)"
@@ -107,14 +107,14 @@ const pressPage: NextPage = () => {
               <div className="flex flex-col gap-3.5">
                 <div className="flex flex-wrap gap-3.5">
                   <Image
-                    src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_ColorOnLight-Padded-Horizontal.svg' || './CosmosCleaner_Logotype_ColorOnDark-Padded-Horizontal.svg'}
+                    src='/CosmosCleaner_Logotype_ColorOnDark-Padded-Horizontal.svg'
                     width={457}
                     height={65}
                     alt="Cosmos Cleaner Logotype (Color on Light Backgrounds, Padded, Horizontal Layout)"
                     className="flex max-sm:max-w-[250px] p-2"
                   />
                   <Image
-                    src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_ColorOnDark-Padded-Horizontal.svg' || './CosmosCleaner_Logotype_ColorOnDark-Padded-Horizontal.svg'}
+                    src='/CosmosCleaner_Logotype_ColorOnDark-Padded-Horizontal.svg'
                     width={457}
                     height={65}
                     alt="Cosmos Cleaner Logotype (Color on Dark Backgrounds, Padded, Horizontal Layout)"
@@ -123,14 +123,14 @@ const pressPage: NextPage = () => {
                 </div>
                 <div className="flex flex-wrap gap-3.5">
                   <Image
-                    src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_Black-Padded-Horizontal.svg' || './CosmosCleaner_Logotype_ColorOnDark-Padded-Horizontal.svg'}
+                    src='/CosmosCleaner_Logotype_ColorOnDark-Padded-Horizontal.svg'
                     width={457}
                     height={65}
                     alt="Cosmos Cleaner Logotype (Black, Padded, Horizontal Layout)"
                     className="flex max-sm:max-w-[250px] p-2"
                   />
                   <Image
-                    src={process.env.NEXT_PUBLIC_SITE_URL + '/CosmosCleaner_Logotype_White-Padded-Horizontal.svg' || './CosmosCleaner_Logotype_ColorOnDark-Padded-Horizontal.svg'}
+                    src='/CosmosCleaner_Logotype_ColorOnDark-Padded-Horizontal.svg'
                     alt="Cosmos Cleaner Logotype (White, Padded, Horizontal Layout)"
                     width={457}
                     height={65}
