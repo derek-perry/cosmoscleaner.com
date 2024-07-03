@@ -44,8 +44,8 @@ const changelogPage: NextPage = () => {
                 <p className="text-lg"><strong>File Type/Size:</strong> .exe (331MB) in .zip (232MB)</p>
                 <p><strong>Changes:</strong></p>
                 <ul className="text-2xl list-disc pl-8">
-                  <li>Add loading indicator</li>
-                  <li>Remove background elements from splash to help splash load quicker</li>
+                  <li>Added loading indicator</li>
+                  <li>Removed background elements from splash to help splash load quicker</li>
                   <li>Changed music to play after splash ends</li>
                 </ul>
               <h3 id="021">v0.2.1w</h3>
@@ -83,10 +83,10 @@ const changelogPage: NextPage = () => {
                 <p><strong>Changes:</strong></p>
                 <ul className="text-2xl list-disc pl-8">
                   <li>Added more sounds including thrust, death, new click/hover, etc</li>
-                  <li>Adjust music and SFX volume levels</li>
-                  <li>Improve in-game color and lighting consistency</li>
+                  <li>Adjusted music and SFX volume levels</li>
+                  <li>Improved in-game color and lighting consistency</li>
                   <li>Added particles upon collecting clutter</li>
-                  <li>Improve CET model</li>
+                  <li>Improved CET model</li>
                 </ul>
               <h3 id="010">v0.1.0w</h3>
                 <p className="text-lg"><strong>Released:</strong> Mar 29, 2024 at 01:05 EDT</p>

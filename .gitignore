@@ -23,6 +23,7 @@
 *.out
 *.swp
 *.pem
+*.ppk
 .ds_store
 .DS_Store
 .AppleDouble
