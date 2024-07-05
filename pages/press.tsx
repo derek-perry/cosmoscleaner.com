@@ -42,20 +42,17 @@ const pressPage: NextPage = () => {
             <p><strong>Price:</strong> Free</p>
             <p><strong>Game Made Using:</strong> Unreal Engine 5.4.2, Adobe Photoshop, Adobe Illustrator</p>
             <p><strong>Website Made Using:</strong> Next.js, Typescript, Tailwind CSS, Netlify, Adobe Photoshop, Adobe Illustrator</p>
-            <p><strong>Wiki Made Using:</strong> MkDocs, Netlify, Adobe Photoshop, Adobe Illustrator</p>
 
             <h2 id="links">Links</h2>
             <p><strong>Official Website:</strong> <LinkInternal href="" title="Visit the game website for Cosmos Cleaner at CosmosCleaner.com">CosmosCleaner.com</LinkInternal></p>
-            <p><strong>Official Wiki:</strong> <LinkExternal href="https://wiki.cosmoscleaner.com" title="Visit the game website for Cosmos Cleaner at Wiki.CosmosCleaner.com">Wiki.CosmosCleaner.com</LinkExternal></p>
             <p><strong>Game Privacy Policy:</strong> <LinkInternal href="privacygame" title="Visit the privacy policy for Cosmos Cleaner at CosmosCleaner.com/privacygame">CosmosCleaner.com/privacygame</LinkInternal></p>
-            <p><strong>Website/Wiki Privacy Policy:</strong> <LinkInternal href="privacy" title="Visit the privacy policy for Cosmos Cleaner's Website and Wiki at CosmosCleaner.com/privacy">CosmosCleaner.com/privacy</LinkInternal></p>
+            <p><strong>Website Privacy Policy:</strong> <LinkInternal href="privacy" title="Visit the privacy policy for Cosmos Cleaner's Website at CosmosCleaner.com/privacy">CosmosCleaner.com/privacy</LinkInternal></p>
             <p><strong>Game Terms of Service:</strong> <LinkInternal href="tosgame" title="Visit the terms of service for Cosmos Cleaner at CosmosCleaner.com/tosgame">CosmosCleaner.com/tosgame</LinkInternal></p>
-            <p><strong>Website/Wiki Terms of Service:</strong> <LinkInternal href="tos" title="Visit the terms of service for Cosmos Cleaner's Website and Wiki at CosmosCleaner.com/tos">CosmosCleaner.com/tos</LinkInternal></p>
+            <p><strong>Website Terms of Service:</strong> <LinkInternal href="tos" title="Visit the terms of service for Cosmos Cleaner's Website at CosmosCleaner.com/tos">CosmosCleaner.com/tos</LinkInternal></p>
             <p><strong>Copyright/License Information:</strong> <LinkInternal href="copyright" title="View the copyright information for Cosmos Cleaner at CosmosCleaner.com/copyright">CosmosCleaner.com/copyright</LinkInternal></p>
             <p><strong>Game By:</strong> <LinkExternal href="https://derek-perry.com" title="Go to Derek Perry, the creator of Cosmos Cleaner, at derek-perry.com">Derek Perry - derek-perry.com</LinkExternal></p>
             <p><strong>Game GitHub:</strong> <LinkExternal href="https://github.com/derek-perry/CosmosCleaner" title="Visit the GitHub for Cosmos Cleaner at github.com/derek-perry/CosmosCleaner">github.com/derek-perry/CosmosCleaner</LinkExternal></p>
             <p><strong>Website GitHub:</strong> <LinkExternal href="https://github.com/derek-perry/cosmoscleaner.com" title="Visit the GitHub for Cosmos Cleaner's Website at github.com/derek-perry/cosmoscleaner.com">github.com/derek-perry/cosmoscleaner.com</LinkExternal></p>
-            <p><strong>Wiki GitHub:</strong> <LinkExternal href="https://github.com/derek-perry/wiki.cosmoscleaner.com" title="Visit the GitHub for Cosmos Cleaner's Wiki at github.com/derek-perry/wiki.cosmoscleaner.com">github.com/derek-perry/wiki.cosmoscleaner.com</LinkExternal></p>
 
             <h2 id="social">Social Media</h2>
             <p><strong>X (formerly Twitter):</strong> <LinkExternal href="https://x.com/CosmosCleaner" title="Visit the X (formerly Twitter) for Cosmos Cleaner at x.com/CosmosCleaner">x.com/CosmosCleaner</LinkExternal></p>
@@ -274,7 +271,7 @@ const pressPage: NextPage = () => {
 
             <h2 id="changes">Kit Changes</h2>
             <p>Although most changes are likely to be minor, Cosmos Cleaner may change this kit from time to time, and in Cosmos Cleaner’s sole discretion. Cosmos Cleaner encourages users to frequently check this page for any changes to this kit.</p>
-            <p><i>This kit was last updated on November 16, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/cosmoscleaner.com" title="View the repository for CosmosCleaner.com at github.com/derek-perry/cosmoscleaner.com">website files on GitHub</LinkExternal> for version history.</i></p>
+            <p><i>This kit was last updated on July 4, 2024. Visit the <LinkExternal href="https://github.com/derek-perry/cosmoscleaner.com" title="View the repository for CosmosCleaner.com at github.com/derek-perry/cosmoscleaner.com">website files on GitHub</LinkExternal> for version history.</i></p>
 
 
             <h2 id="contact-info">Contact Information</h2>

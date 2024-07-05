@@ -20,13 +20,12 @@ const PageFooter = (): JSX.Element => {
           </LinkInternal>
           <div className="flex flex-col gap-y-3 text-left items-left max-md:text-center max-md:items-center">
             <LinkInternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="play" title="Play Cosmos Cleaner">Play</LinkInternal>
-            <LinkExternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="https://wiki.cosmoscleaner.com" title="Cosmos Cleaner Wiki">Wiki</LinkExternal>
-            <LinkInternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="press" title="Media/Press Kit">Press</LinkInternal>
           </div>
           <div className="flex flex-col gap-y-3 text-left items-left max-md:text-center max-md:items-center">
             <LinkInternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="privacy" title="Privacy Policy">Privacy Policy</LinkInternal>
             <LinkInternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="tos" title="Terms of Service">Terms of Service</LinkInternal>
             <LinkInternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="copyright" title="Copyright/Licenses">Copyright/Licenses</LinkInternal>
+            <LinkInternal className="!text-cyan-100 focus:!text-lime-500 hover:!text-sky-500" href="press" title="Media/Press Kit">Press</LinkInternal>
           </div>
         </div>
         <div className="flex flex-wrap gap-5 text-center items-center justify-center">

@@ -91,7 +91,7 @@ const tosGamePage: NextPage = () => {
 
             <h2 id="changes">Terms of Service Changes</h2>
             <p>Although most changes are likely to be minor, Cosmos Cleaner may change these terms of service from time to time, and in Cosmos Cleaner’s sole discretion. Cosmos Cleaner encourages users to frequently check this page for any changes to these terms of service. Your continued use of this site after any change in these terms of service will constitute your acceptance of such change.</p>
-            <p><i>These terms of service was last updated on November 14, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/cosmoscleaner.com" title="View the repository for CosmosCleaner.com at github.com/derek-perry/cosmoscleaner.com">website files on GitHub</LinkExternal> for version history.</i></p>
+            <p><i>These terms of service was last updated on July 4, 2024. Visit the <LinkExternal href="https://github.com/derek-perry/cosmoscleaner.com" title="View the repository for CosmosCleaner.com at github.com/derek-perry/cosmoscleaner.com">website files on GitHub</LinkExternal> for version history.</i></p>
 
             <h2 id="contact-info">Contact Information</h2>
             <p>If you have any questions about these terms of service, please contact Cosmos Cleaner via email at <LinkExternal className="max-sm:break-all" href="mailto:contact@cosmoscleaner.com" title="Contact Cosmos Cleaner via Email at Contact@CosmosCleaner.com">Contact@CosmosCleaner.com</LinkExternal></p>

@@ -22,10 +22,9 @@ const tosPage: NextPage = () => {
 
           <section id="termsofservice" className="max-w-[1000px] text-left">
             <h2 id="overview">Terms of Service Overview</h2>
-            <p>These terms of service are only relevant to Cosmos Cleaner's website and wiki. For the terms of service related to the game itself, visit <LinkInternal href="tosgame" title="CosmosCleaner.com/tosgame">CosmosCleaner.com/tosgame</LinkInternal>. The Cosmos Cleaner website and wiki are provided by Cosmos Cleaner which is operated by Derek Perry. This document is a legal agreement that sets out the terms and conditions (the “terms of service”) between you and Cosmos Cleaner, which you accept and agree to be bound by when you visit, access, or otherwise use Cosmos Cleaner's website, wiki, or other services which are listed below/linked to or which are otherwise referenced in these terms (individually a “Service”, and collectively the “Services”):</p>
+            <p>These terms of service are only relevant to Cosmos Cleaner's website. For the terms of service related to the game itself, visit <LinkInternal href="tosgame" title="CosmosCleaner.com/tosgame">CosmosCleaner.com/tosgame</LinkInternal>. The Cosmos Cleaner website are provided by Cosmos Cleaner which is operated by Derek Perry. This document is a legal agreement that sets out the terms and conditions (the “terms of service”) between you and Cosmos Cleaner, which you accept and agree to be bound by when you visit, access, or otherwise use Cosmos Cleaner's website or other relevant services which are listed below/linked to or which are otherwise referenced in these terms (individually a “Service”, and collectively the “Services”):</p>
             <ul className="pl-7 pb-2 flex flex-col list-disc">
               <li key="website"><LinkInternal className="inline-block" href="" title="CosmosCleaner.com"><p>CosmosCleaner.com</p></LinkInternal></li>
-              <li key="wiki"><LinkExternal className="inline-block" href="https://Wiki.CosmosCleaner.com" title="Wiki.CosmosCleaner.com"><p>Wiki.CosmosCleaner.com</p></LinkExternal></li>
             </ul>
             <p>If you don’t agree to be bound by these terms of service, do not use any Services.</p>
             <p>Please note that any service (including third-party services) may be additionally governed by supplemental terms or contracts specific to that service, which will be presented to you for review prior to accessing those parts of the service that require them; those additional terms become part of your agreement with us if you use those services.</p>
@@ -92,7 +91,7 @@ const tosPage: NextPage = () => {
 
             <h2 id="changes">Terms of Service Changes</h2>
             <p>Although most changes are likely to be minor, Cosmos Cleaner may change these terms of service from time to time, and in Cosmos Cleaner’s sole discretion. Cosmos Cleaner encourages users to frequently check this page for any changes to these terms of service. Your continued use of this site after any change in these terms of service will constitute your acceptance of such change.</p>
-            <p><i>These terms of service was last updated on November 14, 2023. Visit the <LinkExternal href="https://github.com/derek-perry/cosmoscleaner.com" title="View the repository for CosmosCleaner.com at github.com/derek-perry/cosmoscleaner.com">website files on GitHub</LinkExternal> for version history.</i></p>
+            <p><i>These terms of service was last updated on July 4, 2024. Visit the <LinkExternal href="https://github.com/derek-perry/cosmoscleaner.com" title="View the repository for CosmosCleaner.com at github.com/derek-perry/cosmoscleaner.com">website files on GitHub</LinkExternal> for version history.</i></p>
 
             <h2 id="contact-info">Contact Information</h2>
             <p>If you have any questions about these terms of service, please contact Cosmos Cleaner via email at <LinkExternal className="max-sm:break-all" href="mailto:contact@cosmoscleaner.com" title="Contact Cosmos Cleaner via Email at Contact@CosmosCleaner.com">Contact@CosmosCleaner.com</LinkExternal></p>
