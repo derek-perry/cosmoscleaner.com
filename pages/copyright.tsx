@@ -10,7 +10,7 @@ const copyrightPage: NextPage = () => {
 
   return (
     <div className="text-cyan-900 min-h-screen flex flex-col items-center justify-center">
-      <SiteHead title="Cosmos Cleaner Copyright and Licenses" description="Cosmos Cleaner is copyright 2023. - Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!" url="copyright" image="" />
+      <SiteHead title="Cosmos Cleaner Copyright and Licenses" description="Cosmos Cleaner is copyright 2023-2024. - Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!" url="copyright" image="" />
 
       <main className="max-md:pt-2 md:pt-9 pb-20 px-9 max-w-[1000px] w-full flex flex-1 flex-col items-center justify-center">
         <article id="copyright">
