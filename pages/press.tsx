@@ -40,7 +40,7 @@ const pressPage: NextPage = () => {
               <li>iOS (Planned)</li>
             </ul>
             <p><strong>Price:</strong> Free</p>
-            <p><strong>Game Made Using:</strong> Unreal Engine 5.4.2, Adobe Photoshop, Adobe Illustrator</p>
+            <p><strong>Game Made Using:</strong> Unreal Engine 5.4.3, Adobe Photoshop, Adobe Illustrator</p>
             <p><strong>Website Made Using:</strong> Next.js, Typescript, Tailwind CSS, Netlify, Adobe Photoshop, Adobe Illustrator</p>
 
             <h2 id="links">Links</h2>

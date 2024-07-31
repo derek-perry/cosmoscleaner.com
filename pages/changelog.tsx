@@ -29,7 +29,18 @@ const changelogPage: NextPage = () => {
             <h2 id="windows">Windows Releases</h2>
               <p><strong><LinkInternal href="play" title="CosmosCleaner.com/play">Play Latest Version</LinkInternal></strong></p>
               <p className="text-lg"><strong>How To Start/Play Windows Versions:</strong> Download .zip <em>(click version number)</em>, unzip anywhere, open unzipped folder, open .exe, and play!</p>
-              <h3 id="040"><LinkExternal href="https://dropbox.com/scl/fi/rtq73a5ksf61fz746w9jx/Cosmos-Cleaner-v0.4.0w.zip?rlkey=gw150dzpc0v9wyq02nx3j364x&dl=1" title="Download v0.4.0w">v0.4.0w</LinkExternal></h3>
+              <h3 id="050"><LinkExternal href="https://dropbox.com/scl/fi/3awlw4zfmet8uqnvqjv14/Cosmos-Cleaner-v0.5.0w.zip?rlkey=uz6ecfmx8lpwyj7sltbt4dcns&st=4je7wd8k&dl=1" title="Download v0.5.0w">v0.5.0w</LinkExternal></h3>
+                <p className="text-lg"><strong>Released:</strong> Jul 31, 2024 at 19:47 EDT</p>
+                <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
+                <p className="text-lg"><strong>File Type/Size:</strong> .exe (472MB) in .zip (235MB)</p>
+                <p><strong>Changes:</strong></p>
+                <ul className="text-2xl list-disc pl-8">
+                  <li>Added a brief, skippable, and replayable tutorial</li>
+                  <li>Decreased overall map size</li>
+                  <li>Fixed UI showing in non-Safe Zones on mobile</li>
+                  <li>Increased Unreal Engine version to 5.4.3</li>
+                </ul>
+              <h3 id="040">v0.4.0w</h3>
                 <p className="text-lg"><strong>Released:</strong> Apr 10, 2024 at 01:40 EDT</p>
                 <p className="text-lg"><strong>Compatibility:</strong> Windows 11/10 (64-bit)</p>
                 <p className="text-lg"><strong>File Type/Size:</strong> .exe (331MB) in .zip (232MB)</p>
