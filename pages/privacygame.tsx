@@ -5,7 +5,7 @@ import LinkInternal from '../components/Links/LinkInternal';
 import LinkExternal from '../components/Links/LinkExternal';
 import ButtonInternal from '../components/Buttons/ButtonInternal';
 
-const privacyGamePage: NextPage = () => {
+const PrivacyGamePage: NextPage = () => {
   return (
     <div className="text-cyan-900 min-h-screen flex flex-col items-center justify-center">
       <SiteHead title="Cosmos Cleaner Privacy Policy" description="Cosmos Cleaner respects your privacy and your personal data. - Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!" url="privacygame" image="" />
@@ -70,4 +70,4 @@ const privacyGamePage: NextPage = () => {
   );
 };
 
-export default privacyGamePage;
+export default PrivacyGamePage;

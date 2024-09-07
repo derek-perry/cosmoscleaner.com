@@ -5,7 +5,7 @@ import LinkInternal from '../components/Links/LinkInternal';
 import LinkExternal from '../components/Links/LinkExternal';
 import ButtonInternal from '../components/Buttons/ButtonInternal';
 
-const privacyPage: NextPage = () => {
+const PrivacyPage: NextPage = () => {
   return (
     <div className="text-cyan-900 min-h-screen flex flex-col items-center justify-center">
       <SiteHead title="CosmosCleaner.com Privacy Policy" description="Cosmos Cleaner respects your privacy and your personal data. - Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!" url="privacy" image="" />
@@ -26,7 +26,7 @@ const privacyPage: NextPage = () => {
             <p>This privacy policy sets forth the general rules and policies governing your experience with the website. Depending on your activities when viewing/using the website (such as clicking third-party links), you may be required to agree to additional terms and conditions.</p>
 
             <h2 id="user-data">User Data</h2>
-            <p>Like most website, Cosmos Cleaner's website collects non-personally-identifying information of the sort that devices and servers typically make available, such as the device/device type, language preference, and the date and time of each user request. Cosmos Cleaner’s purpose in collecting non-personally identifying information is to better understand how users of Cosmos Cleaner’s website view/use the website. From time to time, Cosmos Cleaner may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of the website.</p>
+            <p>Like most websites, Cosmos Cleaner's website collects non-personally-identifying information of the sort that devices and servers typically make available, such as the device/device type, language preference, and the date and time of each user request. Cosmos Cleaner’s purpose in collecting non-personally identifying information is to better understand how users of Cosmos Cleaner’s website view/use the website. From time to time, Cosmos Cleaner may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of the website.</p>
 
             <h2 id="gathering-info">Gathering of Personally-Identifying Information</h2>
             <p>Certain users of Cosmos Cleaner’s website choose to interact with Cosmos Cleaner in ways that require Cosmos Cleaner to gather personally-identifying information. The amount and type of information that Cosmos Cleaner gathers depends on the nature of the interaction. Cosmos Cleaner runs analytics to understand how you interact with the website which should continuously improve your user experience (e.g. identifying that a feature is too difficult for most users).</p>
@@ -70,4 +70,4 @@ const privacyPage: NextPage = () => {
   );
 };
 
-export default privacyPage;
+export default PrivacyPage;

@@ -5,7 +5,7 @@ import LinkInternal from '../components/Links/LinkInternal';
 import ButtonExternal from '../components/Buttons/ButtonExternal';
 import Image from 'next/image';
 
-const playPage: NextPage = () => {
+const PlayPage: NextPage = () => {
   return (
     <div className="text-cyan-900 min-h-screen flex flex-col items-center justify-center">
       <SiteHead title="Cosmos Cleaner" description="Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!" url="play" image="" />
@@ -72,4 +72,4 @@ const playPage: NextPage = () => {
   );
 };
 
-export default playPage;
+export default PlayPage;

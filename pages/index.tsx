@@ -4,7 +4,7 @@ import PageFooter from '../components/PageFooter';
 import ButtonInternal from '../components/Buttons/ButtonInternal';
 import Image from 'next/image';
 
-const homePage: NextPage = () => {
+const HomePage: NextPage = () => {
   return (
     <div className="text-cyan-900 min-h-screen flex flex-col items-center justify-center">
       <SiteHead title="Cosmos Cleaner" description="Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!" url="" image="" />
@@ -34,4 +34,4 @@ const homePage: NextPage = () => {
   );
 };
 
-export default homePage;
+export default HomePage;

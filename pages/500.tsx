@@ -3,7 +3,7 @@ import SiteHead from '../components/SiteHead';
 import PageFooter from '../components/PageFooter';
 import ButtonInternal from '../components/Buttons/ButtonInternal';
 
-const error500Page: NextPage = () => {
+const Error500Page: NextPage = () => {
   return (
     <div className="text-cyan-900 min-h-screen flex flex-col items-center justify-center">
       <SiteHead title="Error 500: Internal Server Error - Cosmos Cleaner" description="Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!" url="500" image="" />
@@ -23,4 +23,4 @@ const error500Page: NextPage = () => {
   );
 };
 
-export default error500Page;
+export default Error500Page;

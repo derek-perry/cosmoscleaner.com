@@ -5,7 +5,7 @@ import LinkInternal from '../components/Links/LinkInternal';
 import LinkExternal from '../components/Links/LinkExternal';
 import ButtonInternal from '../components/Buttons/ButtonInternal';
 
-const tosPage: NextPage = () => {
+const TosPage: NextPage = () => {
   return (
     <div className="text-cyan-900 min-h-screen flex flex-col items-center justify-center">
       <SiteHead title="CosmosCleaner.com Terms of Service" description="Cosmos Cleaner respects your privacy and your personal data. - Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!" url="tos" image="" />
@@ -104,4 +104,4 @@ const tosPage: NextPage = () => {
   );
 };
 
-export default tosPage;
+export default TosPage;

@@ -5,7 +5,7 @@ import LinkInternal from '../components/Links/LinkInternal';
 import LinkExternal from '../components/Links/LinkExternal';
 import ButtonInternal from '../components/Buttons/ButtonInternal';
 
-const changelogPage: NextPage = () => {
+const ChangelogPage: NextPage = () => {
   return (
     <div className="text-cyan-900 min-h-screen flex flex-col items-center justify-center">
       <SiteHead title="Cosmos Cleaner Change Log" description="Clean up space junk, upgrade your ship, and become the best cleaner in the cosmos!" url="changelog" image="" />
@@ -223,4 +223,4 @@ const changelogPage: NextPage = () => {
   );
 };
 
-export default changelogPage;
+export default ChangelogPage;

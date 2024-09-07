@@ -5,7 +5,7 @@ import LinkInternal from '../components/Links/LinkInternal';
 import LinkExternal from '../components/Links/LinkExternal';
 import ButtonInternal from '../components/Buttons/ButtonInternal';
 
-const copyrightPage: NextPage = () => {
+const CopyrightPage: NextPage = () => {
   let currentYear: number = new Date().getFullYear();
 
   return (
@@ -59,4 +59,4 @@ const copyrightPage: NextPage = () => {
   );
 };
 
-export default copyrightPage;
+export default CopyrightPage;
